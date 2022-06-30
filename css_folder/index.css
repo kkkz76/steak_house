@@ -147,7 +147,6 @@ body{
     font-family: Tw Cen MT;
     font-weight:200;
     color:transparent;
-    color: red;
     
     
 }
@@ -160,7 +159,6 @@ body{
     
 }
 .categories .cat p{
-    color: blue;
     position: absolute;
     top:50%;
     left:0;
