@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: black;
+}
+
+.landing{
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    color: #FFF1A8;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-color: wheat; */
+    overflow: hidden;
+}
+
+.landing img{
+    z-index: 1;
+    position: absolute;
+    top: -60px;
+    right:-20px;
+    width: 1460px;
+    height: 820px;
+}
+.landing .intro{
+    z-index: 2;
+}
+/* .intro h1{
+} */
+
+.landing .secondary_intro{
+    display: flex;
+    align-items: center;
+}
+.landing .secondary_intro button{
+    margin:0px 40px;
+    background-color: transparent;
+    color: white;
+    border:1px solid #C13838;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+}
+.landing .secondary_intro p{
+    color: #BC3F46;
+    font-size: 20px;
+    width: 390px;
+}
+
+.about_us{
+    position: relative;
+    /* background-color: gray; */
+    width: 100%;
+    height:950px;
+
+}
+
+.aboutUs_heading{
+    top:222px;
+    right:314px;
+    position: absolute;
+    width: 800px;
+    text-align: center;
+    height:300px;
+    /* background-color: red; */
+}
+.aboutUs_heading h1{
+    font-size: 75px;
+}
+.aboutUs_heading h2{
+    font-size: 40px;
+}
+.aboutUs_heading p{
+    font-size: 20px;
+    width: 520px;
+    margin: auto;
+}
+.about_us #img2{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 270px;
+    height: 400px;
+    
+}
+
+.fillerImg{
+    position: absolute;
+    top:500px;
+    right:0;
+    width:470px;
+    height:600px;
+    /* background: red; */
+    overflow: hidden;
+}
+
+.fillerImg #img3{
+    position: absolute;
+    width: 650px;
+    height: auto;
+}
+
+.about_us #img4{
+    position: absolute;
+    bottom: 70px;
+    right:50%;
+    width: 110px;
+    height: 300px;
+    transform: rotate(21deg);
+    
+}
+
+.categories{
+    /* background-color: red; */
+    text-align: center;
+
+}
+.categories h1{
+    font-size: 60px;
+}
+
+.categories .cat_intro p{
+    font-size: 20px;
+    width: 520px;
+    margin: auto;
+}
+
+
+.categories .cat{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+}
+.categories .cat h1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 300px;
+    font-family: Tw Cen MT;
+    font-weight:200;
+    color:transparent;
+    color: red;
+    
+    
+}
+.categories .cat img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.categories .cat p{
+    color: blue;
+    position: absolute;
+    top:50%;
+    left:0;
+    font-size: 50px;
+    font-family: Tw Cen MT;
+    font-weight:200;
+    width:370px;
+    color:transparent;
+    /* background-color: blue; */   
+}
+
+.cat1 h1{
+    -webkit-text-stroke: 2px #FFF1A8;
+}
+.cat1 p{
+    -webkit-text-stroke: 2px #FFF1A8;
+}
+.cat2 h1{
+    -webkit-text-stroke: 2px white;
+}
+.cat2 p{
+    -webkit-text-stroke: 2px white;   
+}
+.cat3 h1{
+    -webkit-text-stroke: 2px #82FF8A;
+}
+.cat3 p{
+    -webkit-text-stroke: 2px #82FF8A;   
+}
+.cat4 h1{
+    -webkit-text-stroke: 2px #FF7070;
+}
+.cat4 p{
+    -webkit-text-stroke: 2px #FF7070;   
+}
+.cat5 h1{
+    -webkit-text-stroke: 2px #FF8944;
+}
+.cat5 p{
+    -webkit-text-stroke: 2px #FF8944;    
+}

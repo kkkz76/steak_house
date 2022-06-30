@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    /* background-color: red; */
+    z-index: 100;
+    position: fixed;
+    margin-top: 60px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10%;
+    
+    
+}
+   
+nav{
+   display: flex;
+   align-items: center;
+}
+header li{ 
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+}
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+header .logo_img{
+    width: 80px;
+    height: auto;
+}
+.logo{
+    padding: 0px 30px;
+}
