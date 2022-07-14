@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    /* background-color: red; */
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    margin-top: 60px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10%;
+    font-family: 'Tw Cen MT';   
+}
+   
+nav{
+   display: flex;
+   align-items: center;
+}
+header li{ 
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+    
+}
+header li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Tw Cen MT';
+}
+
+header .logo_img{
+    width: 80px;
+    height: auto;
+}
+.logo{
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color:white;
+}
+
+#menu_icon{
+    display: none;
+}
+/* ...........................responsive...................... */
+
+@media only screen and (max-width: 1600px) {
+
+    header{
+        font-size: 21px;
+    }
+        
+    header .logo_img{
+        width: 70px;
+        height: auto;
+    }
+    header li{ 
+        
+        padding: 0 12px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    header{
+        font-size: 16px;
+    }
+    
+    header .logo_img{
+        width: 60px;
+        height: auto;
+    }
+    header li{ 
+        
+        padding: 0 10px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    header{
+        font-size:13px;
+    }
+        
+    header .logo_img{
+        width: 55px;
+        height: auto;
+    }
+    header li{ 
+        
+        padding: 0 8px;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .right_nav{
+        display: none;
+    }
+    .left_nav{
+        display: none;
+    }
+    header{
+        font-size:30px;
+    }
+
+    #menu_icon{
+        display: block;
+        font-size: 50px;
+    }
+
+    header .logo_img{
+        width: 80px;
+        height: auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .right_nav{
+        display: none;
+    }
+    .left_nav{
+        display: none;
+    }
+    header{
+        font-size:20px;
+    }
+
+    #menu_icon{
+        display: block;
+        font-size: 40px;
+    }
+
+    header .logo_img{
+        width: 70px;
+        height: auto;
+    }
+
+}

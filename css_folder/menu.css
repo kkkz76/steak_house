@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+
+/* .............................................parallex.......................................... */
+.cat_landing{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 175px;
+    margin-bottom: 175px;
+}
+
+.cat_landing::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-size: cover;
+}
+
+.cat_landing h1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 300px;
+    font-family: Tw Cen MT;
+    font-weight:200;
+    color:white;
+
+}
+
+.chicken::before{
+    background-image: url('../img/chicken.png');
+
+}
+.beef::before{
+    background-image: url('../img/beef.png');
+
+}
+
+.sausage::before{
+    background-image: url('../img/sausage_wall.jpeg');
+}
+
+.barbecue::before{
+    background-image: url('../img/barbecue_wall.png');
+}
+
+.seafood::before{
+    background-image: url('../img/seafood_wall.png');
+}
+.drink::before{
+    background-image: url('../img/drink.png');
+}
+
+.chicken h1{
+    color: transparent;
+    -webkit-text-stroke: 2px #FFF1A8;
+}
+.beef h1{
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+.sausage h1{
+    color: transparent;
+    -webkit-text-stroke: 2px #82FF8A;
+}
+.barbecue h1{
+    color: transparent;
+    -webkit-text-stroke: 2px #FF7070;
+}
+.seafood h1{
+    color: transparent;
+    -webkit-text-stroke: 2px #FF8944;
+}
+.drink h1{
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+
+/* ................................................menu.................................................. */
+
+.menu_container{
+    position: relative;
+    padding: 0 10%;
+    /* background-color: red; */
+    min-height: 900px;
+}
+
+.column{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.menu_container img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 850px;
+    height: auto;
+    z-index: -1;
+    opacity: 50%;
+}
+
+
+.menu{
+    position: relative;
+    margin: 20px 0px 20px 0px;
+    width:600px;
+    padding-bottom: 50px;
+    
+    /* background-color: blanchedalmond;*/
+}
+
+.menu li{
+    position: relative;
+    width: 100%;
+     list-style: none;
+     padding: 20px 0;
+}
+
+.menu > h1{
+    font-family: 'Tangerine', cursive;
+    font-weight:bold;
+    font-size: 100px;
+    line-height: 100px;
+    color: #C13838;
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #C13838;
+    
+
+}
+.menu li h1{
+    font-family: 'Tangerine', cursive;
+    font-weight:700;
+    font-size: 60px;
+    line-height: 60px;
+    color: white;
+ }
+ .menu li p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(129, 129, 129);
+ }
+
+ .menu span{
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    font-weight:400;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+.chicken_menu .menu_row2{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.beef_menu .menu_row1{
+    display: flex;
+    justify-content: flex-end;
+}
+.beef_menu .menu_row2{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.sausage_menu .menu_row1{
+    display: flex;
+}
+.sausage_menu .menu_row2{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: flex-end;    
+}
+.barbecue_menu .menu_row1{
+    display: flex;
+    justify-content: flex-end; 
+}
