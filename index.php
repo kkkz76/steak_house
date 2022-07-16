@@ -141,31 +141,56 @@
     </div>
 
     <!-- ............................................................gallery.......................................... -->
-
     <div class="gallery_main">
       <div class="gallery_row1">
-        <img src="img/gallery1.png" alt="" />
+        <div class="gallery_headerImg_container">
+          <img src="img/gallery1.png" alt="" />
+        </div>
+       
         <h1>Gallery</h1>
       </div>
 
+
       <div class="gallery_row2">
         <div class="gallery_col1">
-          <img id="col1_img1" src="img/gallery2.jpg" alt="" />
-          <img id="col1_img2" src="img/gallery2.jpg" alt="" />
+          <div class="col1_img1_container">
+            <img id="col1_img1" src="img/gallery2.jpg" alt="" />
+          </div>
+          <div class="col1_img2_container">
+            <img id="col1_img2" src="img/gallery2.jpg" alt="" />
+          </div>
         </div>
 
+
         <div class="gallery_col2">
-          <img id="col2_img1" src="img/gallery42.jpg" alt="" />
+          <div class="col2_img1_container">
+            <img id="col2_img1" src="img/gallery42.jpg" alt="" />
+          </div>
           <div id="col2_div1">
-            <img id="col2_img2" src="img/gallery5.jpg" alt="" />
+            <div class="col2_img2_container">
+              <img id="col2_img2" src="img/gallery5.jpg" alt="" />
+            </div>
             <div id="col2_div2">
-              <img id="col2_img3" src="img/gallery6.jpg" alt="" />
-              <img id="col2_img4" src="img/gallery7.jpg" alt="" />
+              <div class="col2_img3_container">
+                <img id="col2_img3" src="img/gallery6.jpg" alt="" />
+              </div>
+              <div class="col2_img4_container">
+                <img id="col2_img4" src="img/gallery7.jpg" alt="" />
+              </div>
+              
             </div>
           </div>
         </div>
+
+        
+      
       </div>
     </div>
+    
+    
+   
+
+
 
     <!-- .............................................................blog................................................ -->
     <div class="blog_main">
