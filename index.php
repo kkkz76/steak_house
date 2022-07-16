@@ -14,22 +14,23 @@
   <body>
     <?php include("navbar.php") ?>
     <!-- ....................................Landing......................................... -->
+<!--   
     <div class="landing">
       <img src="img/landing.jpg" alt="" />
       <div class="intro">
         <div>
-          <h1 style="font-size: 60px">Introducing</h1>
-          <h1 style="font-size: 100px">Deliciousness.</h1>
+          <h1 style="font-size: 4vw">Introducing</h1>
+          <h1 style="font-size: 7vw">Deliciousness.</h1>
         </div>
         <div class="secondary_intro">
           <p>
             We're masters in the dark arts of molecular mixology and demons in
             the kitchen...
           </p>
-          <!-- <button>View More</button> -->
         </div>
       </div>
-    </div>
+    </div> -->
+   
     <!-- .....................................About Us.............................................  -->
     <div class="about_us">
       <div class="aboutUs_heading">
@@ -44,10 +45,8 @@
       </div>
       <img id="img1" src="img/steak1.png" alt="" />
       <img id="img2" src="img/steak2.png" alt="" />
-      <div class="fillerImg">
-        <img id="img3" src="img/steak3.png" alt="" />
-      </div>
-      <img id="img4" src="img/steak4.png" alt="" />
+      <img id="img3" src="img/steak3.png" alt="" />
+      
     </div>
 
     <!-- .........................................Categories............................................ -->
@@ -81,11 +80,7 @@
         <p>04.</p>
       </div>
       <div class="cat cat5">
-        <img
-          style="width: 791px; height: 739px"
-          src="img/seafood.png"
-          alt="Seafood Plate"
-        />
+        <img src="img/seafood.png" alt="Seafood Plate"/>
         <h1>SEAFOOD</h1>
         <p>05.</p>
       </div>
@@ -156,7 +151,7 @@
       <div class="gallery_row2">
         <div class="gallery_col1">
           <img id="col1_img1" src="img/gallery2.jpg" alt="" />
-          <img id="col1_img2" src="img/gallery3.jpg" alt="" />
+          <img id="col1_img2" src="img/gallery2.jpg" alt="" />
         </div>
 
         <div class="gallery_col2">
@@ -183,14 +178,15 @@
 
     <!-- ................................................................filler_content.............................. -->
 
-    <div class="filler_main">
+  <div class="filler_container">
+<div class="filler_main">
       <div class="filler1">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
           accusantium quis ullam adipisci sapiente aperiam perferendis fuga
           minus rem
         </p>
-        <div class="item_content_info" style="margin-top: 80px">
+        <div class="item_content_info">
           <p>by Chef John Doe</p>
           <p>December 20,2020</p>
         </div>
@@ -199,33 +195,34 @@
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
           accusantium quis ullam adipisci sapiente aperiam perferendis fuga
-          minus rem Lorem ipsum dolor sit amet consectetur Cum quas accusantium
-          quis ullam adipisci sapiente aperiam perferendis fuga minus rem Lorem
-          ipsum dolor sit amet consectetur
+          minus rem Lorem ipsum dolor sit amet consectetur Cum quas accusant consectetur Cum quas accusantium
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
           accusantium quis ullam adipisci sapiente
         </p>
       </div>
-    </div>
+</div>
+</div>
+
+
+
 
 
     <!-- ..............................................video.................................... -->
 
-    <video width="100%" height="auto" loop autoplay muted>
+    <video style="margin:100px 0px;" width="100%" height="auto" loop autoplay muted>
       <source src="img/Roast.mp4" type="video/mp4" />
     </video>
 
     <!-- ........................................filler................................ -->
-    <div class="filler_main">
-      <div class="filler2">
+    <div class="filler_container">
+<div class="filler_main">
+    <div class="filler2">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
           accusantium quis ullam adipisci sapiente aperiam perferendis fuga
-          minus rem Lorem ipsum dolor sit amet consectetur Cum quas accusantium
-          quis ullam adipisci sapiente aperiam perferendis fuga minus rem Lorem
-          ipsum dolor sit amet consectetur
+          minus rem Lorem ipsum dolor sit amet consectetur Cum quas accusant consectetur Cum quas accusantium
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
@@ -238,12 +235,14 @@
           accusantium quis ullam adipisci sapiente aperiam perferendis fuga
           minus rem
         </p>
-        <div class="item_content_info" style="margin-top: 80px">
+        <div class="item_content_info">
           <p>by Chef John Doe</p>
           <p>December 20,2020</p>
         </div>
-      </div>      
-    </div>
+      </div>
+      
+</div>
+</div>
 
     <?php include("footer.php") ?>
   </body>

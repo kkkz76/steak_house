@@ -13,6 +13,7 @@
 
 
 /* ......................................home_landing......................................... */
+
 .landing{
     padding: 0px 10%;
     display: flex;
@@ -29,8 +30,9 @@
     position: absolute;
     top: -60px;
     right:-20px;
-    width: 1460px;
-    height: 820px;
+    width:70vw;
+    height: auto;
+  
 }
 .landing .intro{
     z-index: 2;
@@ -60,9 +62,9 @@
 .landing .secondary_intro p{
     font-family: 'Montserrat', sans-serif;
     color: #BC3F46;
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
-    width: 500px;
+    width: 30vw;
 }
 
 
@@ -70,29 +72,35 @@
 
 .about_us{
     position: relative;
-    /* background-color: gray; */
+   
     width: 100%;
-    height:950px;
+    height:1080px;
+    /* background-color: antiquewhite; */
 
 }
 
 .aboutUs_heading{
-    top:222px;
-    right:314px;
+    top:45%;
+    left:60%;
+    transform: translate(-50%,-50%);
     position: absolute;
-    width: 800px;
+    max-width: 800px;
+    min-width: 800px;
+    
     text-align: center;
-    height:300px;
+    /* background-color: #FF7070; */
+    
+   
    
 }
 .aboutUs_heading h1{
     font-family: 'Patua One', cursive;
-    font-size: 75px;
+    font-size: 55px;
 }
 .aboutUs_heading h2{
     font-family: 'Tangerine', cursive;
     font-weight:normal;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 25px;
     
 }
@@ -101,7 +109,7 @@
     color: #BC3F46;
     font-size: 20px;
     font-weight: bold;
-    width: 520px;
+    max-width: 600px;
     margin: auto;
     
 }
@@ -118,41 +126,29 @@
     
 
 }
+.about_us #img1{
+    width: 32vw;
+    height: auto;
+    
+}
 .about_us #img2{
     position: absolute;
     top: 0;
     right:0;
-    width: 270px;
-    height: 400px;
+    width: 14vw;
+    height:auto;
     
 }
-
-
-.fillerImg{
+.about_us #img3{
     position: absolute;
-    top:500px;
-    right:0;
-    width:470px;
-    height:600px;
-    /* background: red; */
-    overflow: hidden;
-}
-
-.fillerImg #img3{
-    position: absolute;
-    width: 650px;
+   bottom: 0;
+   right: 0;
+    width: 22vw;
     height: auto;
+   
 }
 
-.about_us #img4{
-    position: absolute;
-    bottom: 70px;
-    right:50%;
-    width: 110px;
-    height: 300px;
-    transform: rotate(21deg);
-    
-}
+
 
 /* ............................................categories...................................... */
 
@@ -174,6 +170,7 @@
 }
 
 .categories .cat_intro p{
+    display: block;
     font-family: 'Montserrat', sans-serif;
     color: #BC3F46;
     font-weight: bold;
@@ -197,17 +194,15 @@
     font-size: 300px;
     font-family: Tw Cen MT;
     font-weight:200;
-    color:transparent;
-    
-    
-    
+    color:transparent;    
 }
 .categories .cat img{
+    width: 700px;
+    height: auto;
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%,-50%);    
     
 }
 .categories .cat p{
@@ -258,23 +253,32 @@
 .chef_recommend{
     display: flex;
     justify-content: center;
+    gap: 5%;
     align-items: center;
     margin-top: 60px;
+    /* background-color: #300A10; */
 
 }
 
 .chef_recommend_img{
-     width: 50%;
+     min-width: 500px;
+     max-width: 500px;
     /* background-color:blue; */
 }
+.chef_recommend_img img{
+    width: 100%;
+   height: auto;
+}
+
 
 
 .chef_recommend_content{
     font-family: 'Tw Cen MT';
-    width: 50%;
+    min-width: 500px;
+    max-width: 500px;
     /* background-color:orange; */
     height: 550px;
-    padding-left: 6%;
+    text-align: left;
    
 }
 .chef_recommend_content_header{
@@ -298,7 +302,6 @@
     margin-bottom: 40px;
 }
 .chef_recommend_content_body{
-    width: 450px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 30px;
@@ -317,21 +320,24 @@
 /* ...........................................chef................................. */
 .our_chef_main{
     display: flex;
+   
     justify-content: center;
     align-items:flex-end;
     margin-top: 60px;
     padding: 0 10%;
     padding-top: 130px;
+    gap: 5%;
 }
 .our_chef_photo img{
-        width: auto;
-        height: 750px;
+    width: 500px;
+    height: auto;
         
-        background-color:blue;
 }
 .our_chef_content{
-    /* background-color:orange; */
-    padding-left: 8%;
+    min-width: 500px;
+    max-width: 500px;
+    /* background-color: #82FF8A; */
+    
 }
 .our_chef_content h1{
     font-family: Tw Cen MT;
@@ -344,9 +350,9 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 30px;
-    width: 448px;
     padding-top: 50px;
     padding-bottom: 30px;
+    text-align: justify;
 
     
 }
@@ -362,13 +368,15 @@
 }
 .our_chef_content img{
     padding-top: 70px;
-    width: 448px;
+    width: 100%;
     height: auto;
 }
 
 
 /* ........................................gallery................................... */
-
+.gallery_main img{
+    display: block;
+}
 
 .gallery_main{
     padding: 200px 20px;
@@ -457,13 +465,12 @@
 }
 #col2_img4{
     width: 100%;
-    height: 225px;
+    height: 230px;
     object-fit: cover;
     object-position: 0% 60%;
     padding-bottom: 20px;
     
 }
-
 
 /* .................................................blog.............................................. */
 
@@ -472,6 +479,7 @@
 
 .blog_main{
     text-align: center;
+    margin: 160px 0px;
 }
 
 .blog_heading h2{
@@ -541,22 +549,30 @@
 
 
 
+/* * ................................................filler.............................. */ 
 
-/* ................................................filler.............................. */
+
+.filler_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding:0 10%;
+    
+}
+
+
 .filler_main{
     display: flex;
-    justify-content:space-between;   
-    width: 100%;
-    padding: 0 10%;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    justify-content:center;
+    width: 1600px;
+    gap: 80px;
+    
 }
 
 .filler1{
-    width: 45%;
-    padding-bottom: 15px;
-    border-bottom: 1px solid white;
-
+    width: 50%;
+    
+    
 }
 .filler1>p{
     font-family: Tw Cen MT;
@@ -571,27 +587,31 @@
 
 }
 .filler2{
-    width: 45%;
-}
+    width: 50%;
+    
 
+}
 .filler2 p:nth-child(1){
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     line-height: 30px;
-}
 
+}
 .filler2 p:nth-child(2){
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: italic;
     line-height: 30px;
+
 }
 
 .item_content_info{
     display: flex;
     justify-content: space-between;
-    margin-top: 130px;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
 }
 .item_content_info p{
     font-family: 'Montserrat', sans-serif;
@@ -600,3 +620,506 @@
 
 }
 
+/* ...............................responsive........................... */
+
+@media only screen and (max-width: 1500px) {
+    /* .........................categories........................ */
+    .categories .cat h1{
+        font-size: 200px;   
+    }
+    .categories .cat p{
+        font-size: 45px; 
+    }
+    .about_us #img1{
+        width: 37vw;
+        
+        
+    }
+    .about_us #img2{
+        
+        width: 18vw;
+    }
+    .about_us #img3{
+         width: 27vw;
+        
+    }
+    .aboutUs_heading{
+        
+        min-width: 750px;
+    }
+    .aboutUs_heading h1{
+        
+        font-size: 47px;
+    }
+    .aboutUs_heading h2{
+        
+        font-size: 27px;
+    }
+
+    /* ...........gallery............... */
+    .gallery_row2{
+       
+        flex-wrap: wrap;
+        gap:20px;
+        
+    }
+    .gallery_col1{
+        width:100%;
+        display: flex;
+    }
+    #col1_img1{
+        max-width: 50%;
+        height: 500px;
+    }
+    #col1_img2{
+        max-width: 50%;
+        height: 500px;
+    }
+    .gallery_col2{
+        width: 100%;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .aboutUs_heading h1{
+        
+        font-size: 38px;
+    }
+    .aboutUs_heading h2{
+        
+        font-size: 24px;
+    }
+
+ /* .........................categories........................ */
+    .categories .cat h1{
+        font-size: 150px;   
+    }
+    .categories .cat p{
+        font-size: 40px; 
+    }
+    .categories .cat img{
+        width: 500px;
+        height: auto;  
+    }
+
+    /* ...............................BOTB............................... */
+    .best_heading{
+        font-size: 100px;
+    }
+    .chef_recommend_img{
+        min-width: 450px;
+        max-width: 450px;
+    }
+   .chef_recommend_content{
+       min-width: 450px;
+       max-width: 450px;
+    }
+    .chef_recommend_content h2{
+        font-size: 80px;
+
+    }
+    .chef_recommend_content_body{
+        font-size: 15px;
+    }
+    .chef_recommend_content button{
+        font-size: 10px;
+    }
+    /* .........................our_chef.................. */
+    .our_chef_photo img{
+        width: 450px;
+            
+    }
+    .our_chef_content{
+        min-width: 400px;
+        
+    }
+    .our_chef_content h1{
+        font-size: 80px;
+    }
+    
+    .our_chef_content p{
+        font-size: 15px;       
+    }
+
+
+    .filler1>p{
+       
+        font-size: 27px;
+        
+        
+    }
+    .filler1>.item_content_info>p{
+        
+        font-size: 14px;
+        
+    
+    }
+    
+    .filler2 p:nth-child(1){
+        
+        font-size: 14px;
+        margin-bottom: 60px;
+        line-height: 20px;
+    
+    }
+    .filler2 p:nth-child(2){
+        font-size: 14px;
+        line-height: 20px;
+    
+    }
+    .article_number{
+        left: -50px;
+        font-size: 30px;
+        
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutUs_heading{
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        min-width: 700px;
+    }
+
+    .about_us #img1{
+        width: 42vw;
+        
+        
+    }
+    .about_us #img2{
+        top: 5%;
+        right:0;
+        width: 20vw;
+    }
+    .about_us #img3{
+        bottom: 5%;
+        right: 0;
+         width: 30vw;
+        
+    }
+    .aboutUs_heading h1{
+        
+        font-size: 45px;
+    }
+    .aboutUs_heading h2{
+        
+        font-size: 25px;
+    }
+
+    /* .........................categories........................ */
+    .categories .cat h1{
+        font-size: 100px;   
+    }
+    .categories .cat p{
+        font-size: 35px; 
+    }
+    .categories .cat img{
+        width: 450px; 
+    }  
+    
+    /* ...............................BOTB............................... */
+    .best_heading{
+        font-size: 80px;
+    }
+    .chef_recommend_img{
+        min-width: 400px;
+        max-width: 400px;
+    }
+   .chef_recommend_content{
+       min-width: 400px;
+       max-width: 400px;
+    }
+    .chef_recommend_content h2{
+        font-size: 80px;
+
+    }
+    .chef_recommend_content_body{
+        font-size: 15px;
+    }
+    .chef_recommend_content button{
+        font-size: 10px;
+    }
+    /* .........................our_chef.................. */
+    .our_chef_photo img{
+        width: 400px;
+            
+    }
+    .our_chef_content{
+        min-width: 400px;
+        
+    }
+    .our_chef_content h1{
+        font-size: 80px;
+    }
+    
+    .our_chef_content p{
+        font-size: 15px;       
+    }
+    .our_chef_content img{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /* ...............................BOTB............................... */
+    .best_heading{
+        font-size: 75px;
+    }
+    .chef_recommend_img{
+        min-width: 350px;
+        max-width: 350px;
+    }
+   .chef_recommend_content{
+       min-width: 350px;
+       max-width: 350px;
+    }
+    .chef_recommend_content h2{
+        font-size: 75px;
+
+    }
+    .chef_recommend_content_body{
+        font-size: 15px;
+    }
+    .chef_recommend_content button{
+        font-size: 10px;
+    }    
+    /* .........................our_chef.................. */
+    .our_chef_photo img{
+        width: 350px;
+            
+    }
+    .our_chef_content{
+        min-width: 350px;
+        
+    }
+    .our_chef_content h1{
+        font-size: 75px;
+    }
+    
+    .our_chef_content p{
+        font-size: 15px;       
+    }
+    .our_chef_content img{
+        width: 60%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .aboutUs_heading{
+       
+        min-width: 500px;
+    }
+
+    .about_us #img1{
+        width: 55vw;
+        
+        
+    }
+    .about_us #img2{
+        display: none;
+    }
+    .about_us #img3{
+        bottom: 5%;
+        right: 0;
+         width: 40vw;
+        
+    }
+    .aboutUs_heading h1{
+        
+        font-size: 45px;
+    }
+    .aboutUs_heading h2{
+        
+        font-size: 30px;
+    }
+    .filler_main{
+        flex-wrap: wrap;
+    }
+    
+    .filler1{
+        width: 100%;
+    }
+    .filler2{
+        width: 100%;
+        
+    }
+    .article_number{
+        display: none;
+    }
+
+
+
+
+    /* .........................categories........................ */
+    .categories .cat{
+        
+        height: 70vh;
+        
+    }
+    .categories .cat_intro h1{
+        font-size: 55px;
+        width: 467px;
+        
+    }
+    
+    .categories .cat_intro p{
+        font-size: 15px;
+        width: 520px;
+
+    }
+    .categories .cat h1{
+        font-size: 100px;   
+    }
+    .categories .cat p{
+        font-size: 35px; 
+        left:-10%;
+    }
+    .categories .cat img{
+        width: 400px; 
+    }      
+    /* ...............................BOTB............................... */
+    .chef_recommend{
+        flex-wrap: wrap;
+    
+    }
+    .chef_recommend_img{
+        min-width: 400px;
+        max-width: 400px;
+    }
+   .chef_recommend_content{
+       min-width: 400px;
+       max-width: 400px;
+    }
+    /* .........................our_chef.................. */
+    
+    .our_chef_photo img{
+        width: 400px;
+            
+    }
+    .our_chef_content{
+        width: 400px;
+        min-width: 400px;
+        
+        
+    }    
+    .our_chef_main{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .our_chef_content img{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .aboutUs_heading{
+       
+        min-width: 400px;
+    }
+    .about_us #img1{
+        width: 60vw;
+    }
+    .about_us #img3{
+        
+         width: 50vw;
+        
+    }
+    .aboutUs_heading h1{
+        
+        font-size: 30px;
+    }
+    .aboutUs_heading h2{
+        
+        font-size: 15px;
+    }
+    /* .........................categories........................ */
+    .categories .cat_intro h1{
+        font-size: 50px;
+        width: 80%;
+        
+    }
+    
+    .categories .cat_intro p{
+        font-size: 15px;
+        width: 80%;
+
+    }
+    .categories .cat h1{
+        font-size: 80px;   
+    }
+    .categories .cat p{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+        
+       
+        .aboutUs_heading{
+       
+            min-width: 300px;
+        }
+
+        .aboutUs_heading h1{
+        
+            font-size: 25px;
+        }
+        .aboutUs_heading h2{
+            
+            font-size: 15px;
+        }
+        .aboutUs_heading p{
+            
+            font-size: 15px;
+            
+            
+        }
+        /* .........................categories........................ */
+        .categories .cat img{
+            width: 300px; 
+        }  
+        /* ...............................BOTB............................... */
+        .chef_recommend{
+            margin-top: 100px;
+        
+        }
+        .chef_recommend_img{
+            min-width: 300px;
+            max-width: 300px;
+        }
+       .chef_recommend_content{
+           min-width: 300px;
+           max-width: 300px;
+        }
+        .best_heading{
+            font-size: 70px;
+        }
+        /* .........................our_chef.................. */
+        .our_chef_photo img{
+            width: 300px;
+                
+        }
+        .our_chef_content{
+            min-width: 300px;
+            width: 300px;
+            
+        }
+        .our_chef_content h1{
+            font-size: 70px;
+        }
+        
+}
+
+@media screen and (max-device-width: 450px) { 
+    .about_us{
+        height: 800px;
+    }
+}
