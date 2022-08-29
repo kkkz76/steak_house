@@ -15,7 +15,7 @@ header{
     
     color: white;
     font-size: 25px;
-   
+    
     width: 100%;
     padding: 60px 10%;
     font-family: 'Tw Cen MT';   
@@ -79,7 +79,8 @@ nav{
     
     width: 100%;
     background-color: #100E0E;
-    height: 100vh;
+    height: calc(100vh - 130px);
+    overflow-y: auto;
     display: none;
 }
 .responsive_menu_container{
