@@ -196,6 +196,7 @@
         height: 500px;
 
     }
+    
 }
 
 @media only screen and (max-width: 500px) {
@@ -210,8 +211,11 @@
         height: 400px;
 
     }
+    .nav_filter form{
+        width: 100%;
+    }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .shop_landing .shop_heading {
         font-size: 100px;
     }
@@ -222,9 +226,6 @@
         height: 300px;
 
     }
-    .nav_filter form{
-        width: 100%;
-    }
     .nav_filter input{
         font-size: 20px;
     }
@@ -234,7 +235,7 @@
 
     }
 }
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 450px) {
     .shop_landing{
         display: flex;
         justify-content: center;
@@ -252,9 +253,7 @@
         height: 300px;
 
     }
-    .nav_filter form{
-        width: 100%;
-    }
+
     .nav_filter input{
         font-size: 20px;
     }

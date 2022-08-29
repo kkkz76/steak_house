@@ -23,18 +23,24 @@
             <div class="row2">
                 <div class="card">
                     <img src="img/clock.png" alt="">
-                    <h2>Lorem Inpusm</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <div class="card_content">
+                        <h2>Lorem Inpusm</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
                 </div>
                 <div class="card">
                     <img src="img/clock.png" alt="">
-                    <h2>Lorem Inpusm</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <div class="card_content">
+                        <h2>Lorem Inpusm</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
                 </div>
                 <div class="card">
                     <img src="img/clock.png" alt="">
-                    <h2>Lorem Inpusm</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <div class="card_content">
+                        <h2>Lorem Inpusm</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,7 +85,7 @@
         </div>        
     </div>
     
-    <div class="filler_main">
+    <!-- <div class="filler_main">
       <div class="filler2">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
@@ -104,7 +110,7 @@
           <p>December 20,2020</p>
         </div>
       </div>      
-    </div>
+    </div> -->
 
     <?php include("footer.php") ?>
 </body>

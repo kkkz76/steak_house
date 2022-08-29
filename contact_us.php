@@ -26,24 +26,27 @@
         </div>
         <div class="col2">
             <div class="row1">
-                <div>
-                <img src="img/local2.png" alt="">
+                <div class="img_container">
+                    <img src="img/local2.png" alt="">
                 </div>
-                <div>
-                <img src="img/local2.png" alt="">
+                <div class="img_container">
+                    <img src="img/local2.png" alt="">
+                </div>
+                <div class="img_container ">
+                    <img src="img/local3.png" alt="">
                 </div>
             </div>
-            <div class="row2">
-                <div>
+            <!-- <div class="row2">
+                <div class="img_container">
                 <img src="img/local3.png" alt="">
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="quote">
         <h1 class="quote_quote">
             <span class="big_quote1">"</span>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi exercitation, photo booth.  
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
         </h1>
         <div class="border_center1">
             <h2>- Hippocrates</h2><br>

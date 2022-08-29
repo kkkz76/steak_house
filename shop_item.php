@@ -41,7 +41,7 @@
                 </li>
                 <li>
                     <p>Ingredients</p>
-                    <p>chicken,water,salt,sugar,sause,tomato</p>
+                    <p>chicken, water, salt, sugar, sause</p>
                 </li>
                 <li>
                     <p>Detail</p>
@@ -88,6 +88,7 @@
         <h1>YOU MAY ALSO LIKE</h1>
         <?php include("mayLike_carousel.php") ?>
     </div>
+    <?php include("footer.php") ?>
 
 
 </body>

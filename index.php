@@ -9,18 +9,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css_folder/index.css" />
+    
     <title>Document</title>
   </head>
   <body>
     <?php include("navbar.php") ?>
     <!-- ....................................Landing......................................... -->
-<!--   
+  
     <div class="landing">
-      <img src="img/landing.jpg" alt="" />
+      <!-- <img src="img/landing.jpg" alt="" /> -->
       <div class="intro">
-        <div>
-          <h1 style="font-size: 4vw">Introducing</h1>
-          <h1 style="font-size: 7vw">Deliciousness.</h1>
+        <div class="intro_title">
+          <h1>Introducing</h1>
+          <h1>Deliciousness.</h1>
         </div>
         <div class="secondary_intro">
           <p>
@@ -29,7 +30,7 @@
           </p>
         </div>
       </div>
-    </div> -->
+    </div>
    
     <!-- .....................................About Us.............................................  -->
     <div class="about_us">
@@ -88,7 +89,9 @@
 
     <!-- ................................................best_of_the_best........................ -->
     <div class="best_of_the_best">
-      <h1 class="best_heading">Best of the best</h1>
+      <div class="best_heading_container">
+        <h1 class="best_heading">Best of the best</h1>
+      </div>
 
       <div class="chef_recommend">
         <div class="chef_recommend_img">
@@ -141,6 +144,7 @@
     </div>
 
     <!-- ............................................................gallery.......................................... -->
+    <!-- ............................................................gallery.......................................... -->
     <div class="gallery_main">
       <div class="gallery_row1">
         <div class="gallery_headerImg_container">
@@ -181,16 +185,9 @@
             </div>
           </div>
         </div>
-
-        
-      
+ 
       </div>
     </div>
-    
-    
-   
-
-
 
     <!-- .............................................................blog................................................ -->
     <div class="blog_main">

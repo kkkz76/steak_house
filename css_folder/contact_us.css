@@ -25,54 +25,73 @@
 }
 .location{
     width: 100%;
-    height: 1000px;
+    min-height: 1000px;
     /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 
 }
 
 .location .col1{
     position: relative;
-    height: 100%;
-    width: 900px;
-    padding: 0px 6px 0px 12px;
+    height: 1000px;
+    width: 40%;
+    /* background-color: antiquewhite; */
+    /* padding: 0px 6px 0px 12px; */
+}
+.location .col2{
+    display: flex;
+    width: 55%;
+    min-height: 1000px;
+    /* background-color: aqua; */
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
-.col1 img{
+.col1 img,.col2 img{
     width: 100%;
-    height: 1000px;
+    height: 100%;
     object-fit: cover;
+    /* background-color: #BC3F46; */
 }
+
 
 .location .col2 .row1{
     display: flex;
-    
+    width: 100%;
+    row-gap: 10px;
+    justify-content: space-between;
+    /* background-color: azure; */
+    flex-wrap: wrap;
 }
-.location .col2 .row1 :nth-child(1) img{
-    width: 500px;
+.location .col2 .row2{
+    width: 100%;
+    height: 490px;
+    /* background-color: green; */
+}
+
+
+.col2 .row1 .img_container{
+    overflow: hidden;
+    width: 49.4%;
     height: 500px;
-    object-fit: cover;
-    padding: 0px 6px;
+    /* background-color: #BC3F46; */
 }
-.location .col2 .row1 :nth-child(2) img{
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    padding: 0px 12px 0px 6px ;
+
+
+.col2 .row1 .img_container:nth-child(3){
+    width: 100%;
+    height: 490px;
 }
-.location .col2 .row2 img{
-    width: 1000px;
-    height: 495px;
-    object-fit: cover;
-    padding: 6px 12px 0px 6px;
-}
+
 
 .local_detail{
     position: absolute;
     text-align: center;
     /* background-color: red; */
-    z-index: 1000;
+    z-index: 100;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -123,4 +142,66 @@
 .big_quote2{
     display: block;
     text-align: left;
+}
+
+/* ......................................responsive................................. */
+
+@media only screen and (max-width: 1000px) {
+    .location .col1{
+        width: 100%;
+        height: 500px;
+    }
+    .location .col2{
+        width: 100%;
+    }
+    .reserve_right form :nth-child(1){
+        width: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 800px) {
+    .contact_heading h1{
+        font-size: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .contact_heading h1{
+        font-size: 100px;
+    }
+    .col2 .row1{
+        gap: 10px;
+    }
+    .col2 .row1 .img_container{
+        width: 100%;
+        
+
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .contact_heading h1{
+        font-size: 100px;
+    }
+    
+    
+    .form>div{
+        width: 100%;
+    }
+    .quote .quote_quote{
+        font-size: 50px;
+
+    }
+    .quote h2{
+        font-size: 25px;
+        
+    }
+    .big_quote1,.big_quote2{
+        font-size:200px;
+    } 
+
 }

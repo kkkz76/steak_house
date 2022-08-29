@@ -41,31 +41,18 @@
 
     <!-- ................................................................filler_content.............................. -->
 
-    <div class="filler_container">
 <div class="filler_main">
-      <div class="filler1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
-          accusantium quis ullam adipisci sapiente aperiam perferendis fuga
-          minus rem
-        </p>
-        <div class="item_content_info">
-          <p>by Chef John Doe</p>
-          <p>December 20,2020</p>
+    <div class="filler1">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas accusantium quis ullam adipisci sapiente aperiam perferendis fuga minus rem  </p>
+        <div class="item_content_info" style="margin-top: 80px;">
+                    <p>by Chef John Doe</p>
+                    <p>December 20,2020</p>
         </div>
-      </div>
-      <div class="filler2">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
-          accusantium quis ullam adipisci sapiente aperiam perferendis fuga
-          minus rem Lorem ipsum dolor sit amet consectetur Cum quas accusant consectetur Cum quas accusantium
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
-          accusantium quis ullam adipisci sapiente
-        </p>
-      </div>
-</div>
+    </div>
+    <div class="filler2">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas accusantium quis ullam adipisci sapiente aperiam perferendis fuga minus rem Lorem ipsum dolor sit amet consectetur  Cum quas accusantium quis ullam adipisci sapiente aperiam perferendis fuga minus rem Lorem ipsum dolor sit amet consectetur</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas accusantium quis ullam adipisci sapiente  </p>
+    </div>
 </div>
 
 

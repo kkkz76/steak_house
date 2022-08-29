@@ -19,6 +19,8 @@
         </div>
     </div>
 
+
+
 <!-- ...........................................chef intro.................................................     -->
 
     <div class="intro_chef">
@@ -45,14 +47,14 @@
  <!-- ........................................................main chef...........................................    -->
     <div class="main_chefs">
         <div class="first_chef">
-            <img src="img/master_chef.png" alt="">
+            <div class="chef_img">
+                <img src="img/master_chef.png" alt="">
+                <h2>John Doe</h2>
+            </div>
             <div class="chef_detail">
                 <h2>Our Master Chef</h2>
                 <h1>JOHN DOE</h1>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi exercitation, photo booth.</p>
-            </div>
-            <div id="sign">
-                <h2>John Doe</h2>
             </div>
         </div>
         <div class="second_chef">
@@ -62,8 +64,9 @@
                 <h1>DAVID</h1>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi exercitation, photo booth.</p>
             </div>
-            <img src="img/master_chef1.png" alt="">
-            <div id="sign">
+            
+            <div class="chef_img">
+                <img src="img/master_chef1.png" alt="">
                 <h2>David</h2>
             </div>
         </div>        
@@ -129,7 +132,6 @@
             <span class="big_quote2">"</span>
         </div>
     </div>
-
     <?php include("footer.php") ?>
 </body>
 </html>
