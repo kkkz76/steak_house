@@ -12,10 +12,10 @@
     <?php include("navbar.php") ?>
     <div class="detail_row1">
         
-        <div class="item_img">
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="item_img">
             <img src="img/chef_recommend.png" alt="">
         </div>
-        <div class="item_info">
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="item_info">
             <h1>Medium Rare Steak</h1>
             <h2>by chef David</h2>
             <h3>$ 150.00</h3>
@@ -23,9 +23,10 @@
             <div class="addTo_cart">
                 <h2>Add to Cart</h2>
                 <div class="amount">
-                    <button><h2>-</h2></button>
-                    <h2>1</h2>
-                    <button><h2>+</h2></button>
+                    <button onclick="minus()"><h2>-</h2></button>
+                    <!-- <h2 class="amount_num">1</h2> -->
+                    <input class="amount_num" type="number" value="0">
+                    <button onclick="plus()"><h2>+</h2></button>
                 </div>
             </div>
         </div>
@@ -33,8 +34,8 @@
 
     <div class="detail_row2">
         <div class="item_detail">
-            <button>Detail</button>
-            <ul class="info_list">
+            <button onclick="more_detail()">Detail<i class='bx bx-chevron-up'></i></button>
+            <ul class="info_list display_toggle">
                 <li>
                     <p>Chef</p>
                     <p>David</p>
@@ -55,8 +56,8 @@
         </div>
 
         <div class="item_review">
-            <button>Review</button>
-            <ul class="review">
+            <button onclick="more_review()">Review<i class='bx bx-chevron-up'></i></button>
+            <ul class="review display_toggle">
                 <li>
                     <img src="img/cool-cat.png" alt="">
                     <p>Decipherment muse about the carbon in our apple pies from which we spring billions upon billions prime number. Concept of the number one cosmic fugue.</p>
@@ -70,7 +71,7 @@
                     <p>Decipherment muse about the carbon in our apple pies from which we spring billions upon billions prime number. Concept of the number one cosmic fugue star stuff harvesting star light concept of the number one vastness is bearable only through love cosmic fugue.</p>
                 </li>
             </ul>
-            <div class="comment">
+            <div class="comment display_toggle">
                 <p>Add a review</p>
                 <h2>Your email address will not be published. Required fields are marked</h2>
                 <form class="review_form" action="">
@@ -92,4 +93,5 @@
 
 
 </body>
+<script src="javascript/shop_item.js"></script>
 </html>

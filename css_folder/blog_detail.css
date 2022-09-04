@@ -17,17 +17,16 @@ body{
 .blog_parallax{
     background-image: url("../img/blog.jpg");
     min-height: 600px;
+    width: 100%;
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: 50% 80%;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .blog_parallax h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     font-family: Tw Cen MT;
     font-size: 200px;
     color: transparent;
@@ -37,12 +36,13 @@ body{
 .blog_detail{
     display: flex;
     justify-content: center;
+    
 
 
 }
 
 .blog_detail_main{
-    width: 60%;
+    width: 1200px;
     text-align:center;
     background-color: #100E0E;
     padding:4%;
@@ -86,6 +86,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     padding: 0 10%;
     margin-bottom: 100px;
+    
     
 }
 .recommend>h1{
@@ -152,21 +153,28 @@ body{
 
 
 /* ................................................filler.............................. */
+.filler_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding:0 10%;
+}
+
+
 .filler_main{
     display: flex;
-    justify-content:space-between;
-    
-    width: 100%;
-    padding: 0 10%;
+    justify-content:center;
+    width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
+    flex-wrap: wrap;
+    
 }
 
 .filler1{
-    width: 45%;
-    padding-bottom: 15px;
-    border-bottom: 1px solid white;
-
+    width: 50%;
+    
+    
 }
 .filler1>p{
     font-family: Tw Cen MT;
@@ -181,13 +189,15 @@ body{
 
 }
 .filler2{
-    width: 45%;
+    width: 50%;
+    padding-left: 70px;
+   
 
 }
 .filler2 p:nth-child(1){
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     line-height: 30px;
 
 }
@@ -197,4 +207,128 @@ body{
     font-style: italic;
     line-height: 30px;
 
+}
+
+.item_content_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+.item_content_info p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #BC3F46;
+
+}
+
+/* ...........................responsive............. */
+@media only screen and (max-width: 1200px) {
+    .filler1>p{
+       
+        font-size: 27px;
+        
+        
+    }
+    .filler1>.item_content_info>p{
+        
+        font-size: 14px;
+        
+    
+    }
+    
+    .filler2 p:nth-child(1){
+        
+        font-size: 14px;
+        margin-bottom: 60px;
+        line-height: 20px;
+    
+    }
+    .filler2 p:nth-child(2){
+        font-size: 14px;
+        line-height: 20px;
+    
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .blog_parallax{
+    
+        background-position: 70% 50%;
+        
+        }
+    .blog_detail_main h1{
+        font-size: 50px;
+        
+    }
+    .blog_detail_main p{
+        
+        font-size: 18px;
+        line-height: 40px;
+        margin: 20px;
+    }
+    .recommend>h1{
+        font-size: 30px;
+    }
+}   
+
+@media only screen and (max-width: 768px) {
+    .blog_parallax h1{
+        
+        font-size: 150px;
+        
+    }
+    .filler1{
+        width: 100%;
+    }
+    .filler2{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 60px
+    }
+    .blog_detail_main h1{
+        font-size: 40px;
+        
+    }
+    .blog_detail_main p{
+        
+        font-size: 15px;
+        line-height: 40px;
+        margin: 20px;
+    }
+    .blog_detail_date > p{
+        font-size: 12px;
+       
+        padding-right: 50px;
+    }
+    .recommend>h1{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .blog_parallax h1{
+        
+        font-size: 100px;
+        
+    }
+    .blog_detail_main h1{
+        font-size: 24px;
+        
+    }
+    .blog_detail_main p{
+        
+        font-size: 13px;
+     
+       line-height: 30px;
+    }
+    .blog_detail_date > p{
+        font-size: 8px;
+       
+        padding-right: 30px;
+    }
+    .recommend>h1{
+        font-size: 20px;
+    }
+        
 }

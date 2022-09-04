@@ -13,9 +13,9 @@
 <!-- ......................................about landing......................................... -->
     <div class="about_landing">
         <div class="about_content">
-            <h1>Our Story</h1>
-            <h2>founded in 1999.</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h1 data-aos="fade" data-aos-duration="1000" data-aos-once="true">Our Story</h1>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="100">founded in 1999.</h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="200">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
     </div>
 
@@ -24,7 +24,7 @@
 <!-- ...........................................chef intro.................................................     -->
 
     <div class="intro_chef">
-        <img src="img/intro_chef.png" alt="">
+        <img data-aos="fade" data-aos-duration="2000" data-aos-once="true" src="img/intro_chef.png" alt="">
     </div>
 
 <!-- ....................................................quote..................................................... -->
@@ -40,18 +40,18 @@
     </div>
 
 <!-- ..................................................chef heading............................................ -->
-    <div class="our_chefs">
-        <h1>Our Chefs</h1>
+    <div  class="our_chefs">
+        <h1 data-aos="fade" data-aos-duration="2000" data-aos-once="true">Our Chefs</h1>
     </div>
   
  <!-- ........................................................main chef...........................................    -->
     <div class="main_chefs">
         <div class="first_chef">
-            <div class="chef_img">
+            <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" class="chef_img">
                 <img src="img/master_chef.png" alt="">
                 <h2>John Doe</h2>
             </div>
-            <div class="chef_detail">
+            <div data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" class="chef_detail">
                 <h2>Our Master Chef</h2>
                 <h1>JOHN DOE</h1>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi exercitation, photo booth.</p>
@@ -59,13 +59,13 @@
         </div>
         <div class="second_chef">
             
-            <div class="chef_detail">
+            <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" class="chef_detail">
                 <h2>Our Master Chef</h2>
                 <h1>DAVID</h1>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi exercitation, photo booth.</p>
             </div>
             
-            <div class="chef_img">
+            <div data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" class="chef_img">
                 <img src="img/master_chef1.png" alt="">
                 <h2>David</h2>
             </div>
@@ -74,45 +74,45 @@
 <!-- .............................................................team..................................................... -->
     <div class="team">
         <div class="team_heading">
-            <h1>A Team of Professionals</h1>
+            <h1 data-aos="fade" data-aos-duration="2000" data-aos-once="true">A Team of Professionals</h1>
         </div>
         <div class="team_gallery">
-            <div class="team_member">
+            <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" class="team_member">
                 <div class="img_holder">
                     <img src="img/anna.png" alt="">
                 </div>
                 <h1>Anna</h1>
                 <h2>chef</h2>
             </div>
-            <div class="team_member">
+            <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="200" class="team_member">
                 <div class="img_holder">
                     <img src="img/Akimoto.png" alt="">
                 </div>
                 <h1>Akimoto</h1>
                 <h2>chef</h2>
             </div>
-            <div class="team_member">
+            <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="400" class="team_member">
                 <div class="img_holder">
                     <img src="img/jimmy.png" alt="">
                 </div>
                 <h1>Jimmy</h1>
                 <h2>chef</h2>
             </div>
-            <div class="team_member">
+            <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="600" class="team_member">
                 <div class="img_holder">
                     <img src="img/dave.png" alt="">
                 </div>
                 <h1>Dave</h1>
                 <h2>chef</h2>
             </div>
-            <div class="team_member">
+            <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="800" class="team_member">
                 <div class="img_holder">
                     <img src="img/larry.png" alt="">
                 </div>
                 <h1>Larry</h1>
                 <h2>chef</h2>
             </div>
-            <div class="team_member">
+            <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="1000" class="team_member">
                 <div class="img_holder">
                     <img src="img/dog.png" alt="">
                 </div>

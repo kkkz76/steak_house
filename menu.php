@@ -13,8 +13,8 @@
 <body>
     <?php include("navbar.php") ?>
     <!-- ........................................CHICKEN......................................... -->
-    <div class="cat_landing chicken">
-        <h1>CHICKEN</h1>
+    <div  class="cat_landing chicken">
+        <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>CHICKEN</h1></div>
     </div>
     <div class="menu_container column chicken_menu">
         <img  src="img/cat1.png" alt="">
@@ -110,8 +110,8 @@
       
     </div>
     <!-- ........................................BEEF......................................... -->
-    <div class="cat_landing beef">
-        <h1>BEEF</h1>
+    <div class="cat_landing beef testing">
+        <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>BEEF</h1></div>
     </div>
     <div class="menu_container column beef_menu">
         <img src="img/beef_steak.png" alt="">
@@ -207,7 +207,7 @@
     </div>
     <!-- ........................................SAUSAGE......................................... -->
     <div class="cat_landing sausage">
-        <h1>SAUSAGE</h1>
+        <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>SAUSAGE</h1></div>
     </div>
     <div class="menu_container column sausage_menu">
         <img src="img/sausage.png" alt="">
@@ -303,7 +303,7 @@
     </div>
     <!-- ........................................BARBECUE......................................... -->
     <div class="cat_landing barbecue">
-        <h1>BARBECUE</h1>
+        <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>BARBECUE</h1><h1>BARBECUE</h1></div>
     </div>
     <div class="menu_container column barbecue_menu">
         <img src="img/barbecue.png" alt="">
@@ -399,7 +399,7 @@
     </div>
     <!-- ........................................SEAFOOD......................................... -->
     <div class="cat_landing seafood">
-        <h1>SEAFOOD</h1>
+        <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>SEAFOOD</h1></div>
     </div>
     <div class="menu_container column seafood_menu">
         <img src="img/seafood.png" alt="">
@@ -494,7 +494,7 @@
     </div>
     <!-- ........................................DRINK......................................... -->
     <div class="cat_landing drink">
-        <h1>DRINK</h1>
+        <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>DRINK</h1></div>
     </div>
     <div class="menu_container column drink_menu">
         <img src="img/cat1.png" alt="">
@@ -589,7 +589,8 @@
       
     </div>
 </body>
-<script>
-  AOS.init();
-</script>
+
+
+
+
 </html>

@@ -15,12 +15,12 @@
     <?php include("navbar.php") ?>
 
     <div class="blog_parallax">
-        <h1>Blog</h1>
+        <h1 data-aos="fade" data-aos-duration="1000" data-aos-once="true">Blog</h1>
     </div>
     <div class="blog_detail">
     <div class="blog_detail_main">
-        <h1>How We cook everyday?</h1>
-        <div class="blog_detail_date">
+        <h1 data-aos="fade" data-aos-duration="1000" data-aos-once="true">How We cook everyday?</h1>
+        <div data-aos="fade" data-aos-duration="1000" data-aos-once="true" class="blog_detail_date">
             <p>by Chef John Doe</p>
             <p>December 20,2020</p>
         </div>
@@ -41,18 +41,31 @@
 
     <!-- ................................................................filler_content.............................. -->
 
+    <div class="filler_container">
 <div class="filler_main">
-    <div class="filler1">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas accusantium quis ullam adipisci sapiente aperiam perferendis fuga minus rem  </p>
-        <div class="item_content_info" style="margin-top: 80px;">
-                    <p>by Chef John Doe</p>
-                    <p>December 20,2020</p>
+      <div class="filler1">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
+          accusantium quis ullam adipisci sapiente aperiam perferendis fuga
+          minus rem
+        </p>
+        <div class="item_content_info">
+          <p>by Chef John Doe</p>
+          <p>December 20,2020</p>
         </div>
-    </div>
-    <div class="filler2">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas accusantium quis ullam adipisci sapiente aperiam perferendis fuga minus rem Lorem ipsum dolor sit amet consectetur  Cum quas accusantium quis ullam adipisci sapiente aperiam perferendis fuga minus rem Lorem ipsum dolor sit amet consectetur</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas accusantium quis ullam adipisci sapiente  </p>
-    </div>
+      </div>
+      <div class="filler2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
+          accusantium quis ullam adipisci sapiente aperiam perferendis fuga
+          minus rem Lorem ipsum dolor sit amet consectetur Cum quas accusant consectetur Cum quas accusantium
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
+          accusantium quis ullam adipisci sapiente
+        </p>
+      </div>
+</div>
 </div>
 
 

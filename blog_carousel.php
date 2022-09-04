@@ -1,6 +1,6 @@
 
 
-<div class="owl-carousel owl-theme">
+<div data-aos="fade" data-aos-duration="1000" data-aos-once="true" class="owl-carousel owl-theme">
 
     <div class="item">
         <div class="inner_item_div">

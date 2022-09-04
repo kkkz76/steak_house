@@ -11,7 +11,7 @@
 <body>
     <?php include("navbar.php") ?>
     <div class="reserve_container">
-        <div class="reserve_left">
+        <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" class="reserve_left">
             <div class="reserve_img">
                 <img src="img/reserve.png" alt="">
             </div>
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class="reserve_right">
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="reserve_right">
             <h1>Your Information</h1>
             <form>
                 <div>
@@ -85,32 +85,7 @@
         </div>        
     </div>
     
-    <!-- <div class="filler_main">
-      <div class="filler2">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
-          accusantium quis ullam adipisci sapiente aperiam perferendis fuga
-          minus rem Lorem ipsum dolor sit amet consectetur Cum quas accusantium
-          quis ullam adipisci sapiente aperiam perferendis fuga minus rem Lorem
-          ipsum dolor sit amet consectetur
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
-          accusantium quis ullam adipisci sapiente
-        </p>
-      </div>
-      <div class="filler1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quas
-          accusantium quis ullam adipisci sapiente aperiam perferendis fuga
-          minus rem
-        </p>
-        <div class="item_content_info" style="margin-top: 80px">
-          <p>by Chef John Doe</p>
-          <p>December 20,2020</p>
-        </div>
-      </div>      
-    </div> -->
+
 
     <?php include("footer.php") ?>
 </body>

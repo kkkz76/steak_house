@@ -10,7 +10,9 @@
     
 }
 
-.contact_heading h1{
+
+
+.contact_heading  h1{
     font-size: 200px;
     font-family: 'Tw Cen MT';
     -webkit-text-stroke: 2px #BC3F46;
@@ -23,6 +25,7 @@
     align-items: center;
     height: 640px;
 }
+
 .location{
     width: 100%;
     min-height: 1000px;
@@ -31,6 +34,7 @@
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    overflow: hidden;
 
 }
 
@@ -74,6 +78,7 @@
 
 
 .col2 .row1 .img_container{
+    position: relative;
     overflow: hidden;
     width: 49.4%;
     height: 500px;
@@ -86,15 +91,33 @@
     height: 490px;
 }
 
+.card1 img,.card2 img,.card3 img,.card4 img{
+    opacity: 0.4;
+    animation-delay: 0;
+    transition: 0.5s;
+}
+
+.card1:hover.card1 img,.card2:hover.card2 img,.card3:hover.card3 img,.card4:hover.card4 img{
+    opacity: 1;
+
+}
+
+.card1:hover .local_detail,.card2:hover .local_detail,.card3:hover .local_detail,.card4:hover .local_detail{
+    opacity: 1;
+
+}
+
 
 .local_detail{
     position: absolute;
     text-align: center;
     /* background-color: red; */
-    z-index: 100;
+    z-index: 10;
     top: 50%;
     left: 50%;
+    opacity:0;
     transform: translate(-50%,-50%);
+    transition: 0.5s;
 }
 .local_detail h1{
     font-size: 100px;

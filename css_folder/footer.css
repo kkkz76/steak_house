@@ -1,5 +1,6 @@
 .footer_main{
     width: 100%;
+    margin-top: 300px;
     position: relative;
     padding-top: 100px;
     position: relative;
@@ -82,7 +83,8 @@
     width: 250px;
     font-size: 80px;
     color: transparent;
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 2px #82FF8A;
+
 }
 
 .footer_col2{

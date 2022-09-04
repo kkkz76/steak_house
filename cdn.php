@@ -20,6 +20,7 @@
 <!-- .......Style........ -->
 <link rel="stylesheet" href="css_folder/navbar.css">
 <link rel="stylesheet" href="css_folder/footer.css">
+<link rel="stylesheet" href="css_folder/loading.css">
 
 
 <!-- ..............aos.............. -->

@@ -10,6 +10,7 @@
     justify-content: center;
     gap: 5%;
     margin-top: 300px;
+    margin-bottom: 300px;
     color: white;
     padding: 0px 10%;
 }
@@ -73,6 +74,13 @@
     width: 32%;
     background-color: #100E0E;
     padding: 5px;
+    transition: 0.2s ease-in; 
+    
+}
+
+.card:hover{
+    transform: translateY(-5%);
+    /* box-shadow: #BC3F46 0px 1px 4px; */
 }
 
 .reserve_img{
