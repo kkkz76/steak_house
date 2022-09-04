@@ -33,9 +33,31 @@ nav{
 .top_menu li{ 
     display: inline-block;
     list-style: none;
-    padding: 0 15px;
+    margin: 0 15px;
+    position: relative;
+    
    
     
+}
+.left_nav li span{
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+   
+    transition: 0.5s ease;
+    width: 0%;
+    border-bottom: 3px solid #BC3F46;
+}
+.top_menu li:hover span{
+  
+    width: 100%;
+    
+}
+.right_nav li:hover i{
+    color:#BC3F46;
+}
+.right_nav i{
+    transition: 0.4s ease;
 }
 .top_menu li a{
     text-decoration: none;
@@ -131,7 +153,7 @@ nav{
     }
     .top_menu li{ 
 
-        padding: 0 12px;
+       margin: 0 12px;
 
     }
    
@@ -152,7 +174,7 @@ nav{
     }
     .top_menu li{ 
 
-        padding: 0 10px;
+        margin: 0 10px;
 
     }
    
@@ -172,7 +194,7 @@ nav{
     }
     .top_menu li{ 
 
-        padding: 0 8px;
+        margin: 0 8px;
      }
    
     

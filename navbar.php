@@ -7,12 +7,12 @@
             <p>House</p></a>
         </div>
         <ul class="left_nav">
-            <li><a href="menu.php">Menu</a></li>
-            <li><a href="reservation.php">Reservation</a></li>
-            <li><a href="contact_us.php">Contact</a></li>
-            <li><a href="blog.php">Blog</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="shop.php">Shop</a></li>
+            <li><a href="menu.php">Menu</a><span></span></li>
+            <li><a href="reservation.php">Reservation</a><span></span></li>
+            <li><a href="contact_us.php">Contact</a><span></span></li>
+            <li><a href="blog.php">Blog</a><span></span></li>
+            <li><a href="about.php">About</a><span></span></li>
+            <li><a href="shop.php">Shop</a><span></span></li>
         </ul>
     </nav>
     <ul class="right_nav">
