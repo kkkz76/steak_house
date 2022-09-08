@@ -14,7 +14,7 @@
         <div class="footer_content">
             <div class="footer_col1">
                 <h1 class="come_vist">Come Visit Us</h1>
-                <button class="reservation_but">Reservation</button>
+                <button onclick="window.location.href = 'reservation.php';" class="reservation_but">Reservation</button>
                 <h1 class="share_exp">Share Your Experience</h1>
                 <input class="share_exp_but" type="email" placeholder="E-mail Address">
                 <h1 class="open_today">OPEN TODAY</h1>

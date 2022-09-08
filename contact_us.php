@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css_folder/contact_us.css?version=1">
+    <link rel="stylesheet" href="css_folder/contact_us.css">
     <title>Document</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
                 <p>somethingsomething@gmail.com</p>
                 <p>+35 702-631-1858</p>
             </div>
-            <img src="img/local1.png" alt="">
+            <img src="img/local1.png" alt="newyork">
             
         </div>
         <div class="col2">
@@ -33,7 +33,7 @@
                         <p>somethingsomething@gmail.com</p>
                         <p>+35 702-631-1858</p>
                     </div>                        
-                    <img src="img/local2.png" alt="">
+                    <img src="img/local2.png" alt="london">
                 </div>
                 <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="img_container card3">
                     <div class="local_detail">
@@ -42,7 +42,7 @@
                         <p>somethingsomething@gmail.com</p>
                         <p>+35 702-631-1858</p>
                     </div> 
-                    <img src="img/local2.png" alt="">
+                    <img src="img/local4.jpg" alt="paris">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="img_container card4">
                     <div class="local_detail">
@@ -51,7 +51,7 @@
                         <p>somethingsomething@gmail.com</p>
                         <p>+35 702-631-1858</p>
                     </div> 
-                    <img src="img/local3.png" alt="">
+                    <img src="img/local3.png" alt="venice">
                 </div>
             </div>
             <!-- <div class="row2">
@@ -64,7 +64,7 @@
     <div class="quote">
         <h1 class="quote_quote">
             <span class="big_quote1">"</span>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi exercitation, photo booth.
         </h1>
         <div class="border_center1">
             <h2>- Hippocrates</h2><br>

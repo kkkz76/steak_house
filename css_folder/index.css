@@ -23,7 +23,6 @@ h1,h2,h3,p{
     position: relative;
     width: 100%;
     height: 100vh;
-    /* background-color: wheat; */
     overflow: hidden;
 }
 
@@ -32,7 +31,6 @@ h1,h2,h3,p{
     content: ' ';
     display: block;
     position: absolute;
-    /* top:-10%; */
     right: 0;
     width: 100%;
     height: 100%;
@@ -42,7 +40,6 @@ h1,h2,h3,p{
     background-size: cover;
 }
 
-
 .landing .intro{
     z-index: 2;
 }
@@ -50,6 +47,7 @@ h1,h2,h3,p{
     font-family: 'Patua One', cursive;
     color: #FFF1A8;
     letter-spacing: 3px;
+    text-shadow: 0px 0px 3px #FFF1A8;
     
 } 
 
@@ -60,8 +58,7 @@ h1,h2,h3,p{
     font-size: 5vw;
 }
 
-.landing .secondary_intro{
-    
+.landing .secondary_intro{  
     padding-top: 40px;
 }
 
@@ -81,8 +78,6 @@ h1,h2,h3,p{
     overflow: hidden;
     width: 100%;
     height:1080px;
-    /* background-color: antiquewhite; */
-
 }
 
 .aboutUs_heading{
@@ -91,18 +86,15 @@ h1,h2,h3,p{
     transform: translate(-50%,-50%);
     position: absolute;
     max-width: 800px;
-    min-width: 800px;
-    
+    min-width: 800px;   
     text-align: center;
-    /* background-color: #FF7070; */
-    
-   
-   
 }
+
 .aboutUs_heading h1{
     font-family: 'Patua One', cursive;
     font-size: 55px;
 }
+
 .aboutUs_heading h2{
     font-family: 'Tangerine', cursive;
     font-weight:normal;
@@ -110,6 +102,7 @@ h1,h2,h3,p{
     margin-bottom: 25px;
     
 }
+
 .aboutUs_heading p{
     font-family: 'Montserrat', sans-serif;
     color: #BC3F46;
@@ -119,19 +112,28 @@ h1,h2,h3,p{
     margin: auto;
     
 }
+
 .aboutUs_heading button{
-    padding: 10px;
+    width: 150px;
+    padding: 15px;
     font-family: 'Tw Cen MT';
     font-size: 20px;
-    margin-top: 25px;
+    margin-top: 50px;
     color: white;
-    border: none;
-    border-bottom:1px solid #BC3F46;
+    border:1px solid #BC3F46;
     background-color: transparent;
     cursor: pointer;
-    
+    transition: 0.5s ease;
+}
+
+.aboutUs_heading button:hover{
+    background-color: #BC3F46;
+    color: black;
+    border-radius: 5px;
 
 }
+
+
 .about_us #img1{
     width: 32vw;
     height: auto;
@@ -145,6 +147,7 @@ h1,h2,h3,p{
     height:auto;
     
 }
+
 .about_us #img3{
     position: absolute;
    bottom: 0;
@@ -159,7 +162,6 @@ h1,h2,h3,p{
 /* ............................................categories...................................... */
 
 .categories{
-    /* background-color: red; */
     text-align: center;
     margin-bottom: 130px;
 
@@ -170,9 +172,7 @@ h1,h2,h3,p{
     font-size: 60px;
     width: 467px;
     margin: auto;
-    margin-bottom: 25px;
-
-    
+    margin-bottom: 25px;  
 }
 
 .categories .cat_intro p{
@@ -190,9 +190,9 @@ h1,h2,h3,p{
     position: relative;
     width: 100%;
     min-height: 800px;
-    /* background-color: red; */
     margin: 10px 0px;
 }
+
 .categories .cat h1{
     cursor: pointer;
     position: absolute;
@@ -204,6 +204,7 @@ h1,h2,h3,p{
     font-weight:200;
     color:transparent;    
 }
+
 .categories .cat img{
     cursor: pointer;
     width: 600px;
@@ -215,6 +216,7 @@ h1,h2,h3,p{
     transition: 0.5s ease;   
     
 }
+
 .categories .cat p{
     position: absolute;
     top:50%;
@@ -224,8 +226,7 @@ h1,h2,h3,p{
     font-family: Tw Cen MT;
     font-weight:200;
     padding-left: 105px;
-    color:transparent;
-    /* background-color: blue; */   
+    color:transparent; 
 }
 
 .categories .cat a:hover img{
@@ -236,15 +237,19 @@ h1,h2,h3,p{
 .cat1 h1,.cat1 p{
     -webkit-text-stroke: 2px #FFF1A8;
 }
+
 .cat2 h1,.cat2 p{
     -webkit-text-stroke: 2px white;
 }
+
 .cat3 h1,.cat3 p{
     -webkit-text-stroke: 2px #82FF8A;
 }
+
 .cat4 h1,.cat4 p{
     -webkit-text-stroke: 2px #FF7070;
 }
+
 .cat5 h1,.cat5 p{
     -webkit-text-stroke: 2px #FF8944;
 }
@@ -259,7 +264,6 @@ h1,h2,h3,p{
 
 .best_heading_container{
     width: 100%;
-    
 }
 
 .best_heading{
@@ -271,22 +275,19 @@ h1,h2,h3,p{
     font-size: 150px;
     padding-top: 100px;
     letter-spacing: 10px;
-
 }
+
 .chef_recommend{
     display: flex;
     justify-content: center;
     gap: 5%;
     align-items: center;
     margin-top: 60px;
-    /* background-color: #300A10; */
-
 }
 
 .chef_recommend_img{
      min-width: 500px;
      max-width: 500px;
-    /* background-color:blue; */
 }
 .chef_recommend_img img{
     width: 100%;
@@ -299,23 +300,10 @@ h1,h2,h3,p{
     font-family: 'Tw Cen MT';
     min-width: 500px;
     max-width: 500px;
-    /* background-color:orange; */
     height: 550px;
     text-align: left;
-   
 }
-.chef_recommend_content_header{
-    font-family: 'Tw Cen MT';
-    width: 160px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    background-color:#300A10;
-   
 
-}
 .chef_recommend_content h2{
     font-family: 'Tangerine', cursive;
     font-weight:normal;
@@ -324,6 +312,7 @@ h1,h2,h3,p{
     margin-top: 80px;
     margin-bottom: 40px;
 }
+
 .chef_recommend_content_body{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -333,17 +322,24 @@ h1,h2,h3,p{
 .chef_recommend_content button{
     margin-top: 45px;
     padding: 15px 40px;
-    border-radius: 30px;
+    border-radius: 10px;
     border: transparent;
-    background-color:#300A10;
+    background-color:#BC3F46;
     color: white;
     font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
+
+.chef_recommend_content button:hover{
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+
 
 /* ...........................................chef................................. */
 .our_chef_main{
     display: flex;
-   
     justify-content: center;
     align-items:flex-end;
     margin-top: 60px;
@@ -383,9 +379,9 @@ h1,h2,h3,p{
 .our_chef_content button{
     display:block;
     padding: 15px 40px;
-    border-radius: 30px;
+    border-radius: 10px;
     border: transparent;
-    background-color:#300A10;
+    background-color:#BC3F46;
     color: white;
     font-size: 15px;
 

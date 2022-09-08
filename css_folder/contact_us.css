@@ -10,6 +10,9 @@
     
 }
 
+h1,h2,h3,p{
+    cursor: default;
+}
 
 
 .contact_heading  h1{
@@ -108,6 +111,8 @@
 }
 
 
+
+
 .local_detail{
     position: absolute;
     text-align: center;
@@ -122,10 +127,24 @@
 .local_detail h1{
     font-size: 100px;
     font-family: 'Tw Cen MT';
-    -webkit-text-stroke: 2px #BC3F46;
+    /* -webkit-text-stroke: 2px #BC3F46; */
     color: transparent;
     font-weight:bold;
 }
+
+.card1 .local_detail h1{
+    -webkit-text-stroke: 2px #BC3F46 ;
+}
+.card2 .local_detail h1{
+    -webkit-text-stroke: 2px #FFF1A8 ;
+}
+.card3 .local_detail h1{
+    -webkit-text-stroke: 2px white ;
+}
+.card4 .local_detail h1{
+    -webkit-text-stroke: 2px #82FF8A ;
+}
+
 .local_detail p{
     font-size: 20px;
     font-family: 'Tw Cen MT';

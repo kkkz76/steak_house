@@ -21,26 +21,26 @@
         <div class="nav_filter">
             <form action="">
                 <select name="branch" id="branch" form="branch_form">
-                    <option value="volvo">All Categories</option>
-                    <option value="saab">Saab</option>
-                    <option value="opel">Opel</option>
-                    <option value="audi">Audi</option>
+                    <option value="Categories">All Categories</option>
+                    <option value="category1">category1</option>
+                    <option value="category2">category2</option>
+                    <option value="category3">category3</option>
                 </select>
             </form>
             <form action="">
                 <select name="branch" id="branch" form="branch_form">
-                    <option value="volvo">All Categories</option>
-                    <option value="saab">Saab</option>
-                    <option value="opel">Opel</option>
-                    <option value="audi">Audi</option>
+                    <option value="Categories1">All Categories</option>
+                    <option value="category1">category1</option>
+                    <option value="category2">category2</option>
+                    <option value="category3">category3</option>
                 </select>
             </form>
             <form action="">
                 <select name="branch" id="branch" form="branch_form">
-                    <option value="volvo">All Categories</option>
-                    <option value="saab">Saab</option>
-                    <option value="opel">Opel</option>
-                    <option value="audi">Audi</option>
+                    <option value="Categories2">All Categories</option>
+                    <option value="category1">category1</option>
+                    <option value="category2">category2</option>
+                    <option value="category3">category3</option>
                 </select>
             </form>
             <input type="text" id="shop_search" name="shop_search" placeholder="Search">
@@ -98,7 +98,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item4.png" alt="">
+            <img src="img/shop_item6.png" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -114,7 +114,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item6.png" alt="">
+            <img src="img/shop_item4.png" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>

@@ -14,6 +14,9 @@ body{
     color: white;
     
 }
+h1,h2,h3,p{
+    cursor: default;
+}
 .blog_parallax{
     background-image: url("../img/blog.jpg");
     min-height: 600px;
@@ -100,6 +103,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.item a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 .owl-carousel{
     padding: 0 8%;
     
@@ -129,6 +139,7 @@ body{
     font-size: 50px;
     padding:0px 0px 22px 0px;
     text-align: left;
+    cursor: pointer;
     
 }
 
@@ -137,6 +148,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     text-align:justify;
+    cursor: pointer;
 }
 
 .item_content_info{

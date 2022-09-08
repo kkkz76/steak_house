@@ -4,6 +4,10 @@
 
 
 /* .............................................parallex.......................................... */
+h1,h2,h3,p{
+    cursor: default;
+}
+
 .cat_landing{
     position: relative;
     width: 100%;
@@ -109,7 +113,7 @@
 .column{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
     flex-wrap: wrap;
 }
 
@@ -118,7 +122,6 @@
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
     width: 850px;
     height: auto;
     z-index: -1;
@@ -126,7 +129,7 @@
 }
 
 .column1 ,.column2{
-    width: 40%;
+    width: 35%;
 }
 .menu{
     position: relative;
