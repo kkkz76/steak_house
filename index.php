@@ -9,8 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css_folder/index.css" />
-    <title>Document</title>
+    <title>Home</title>
   </head>
+  
   <body>
     <?php include("navbar.php") ?>
     <!-- ....................................Landing......................................... -->
@@ -59,7 +60,7 @@
         </p>
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" class="cat cat1">
-        <a href="shop.php"><img src="img/cat1.png" alt="Chicken Dish" />
+        <a href="shop.php"><img src="img/cat1.png" alt="Chicken Dish" loading="lazy"/>
         <h1 >CHICKEN</h1></a>
         <p>01.</p>
       </div>
@@ -125,7 +126,7 @@
     <!-- ...................................................Chef........................................... -->
 
     <div class="our_chef_main">
-      <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="our_chef_photo"><img src="img/about_chef.png" alt="" /></div>
+      <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="our_chef_photo"><img src="img/about_chef.jpg" alt="" /></div>
       <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="our_chef_content">
         <h1>Our Chefs</h1>
         <p>
@@ -144,7 +145,7 @@
     <div class="gallery_main">
       <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="gallery_row1">
         <div class="gallery_headerImg_container">
-          <img src="img/gallery1.png" alt="" />
+          <img src="img/gallery1.jpg" alt="" />
         </div>
        
         <h1>Gallery</h1>

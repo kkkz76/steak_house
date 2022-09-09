@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_folder/blog.css">   
-    <title>Document</title>
+    <title>Blog</title>
 </head>
 <body>
     <?php include("navbar.php") ?>
@@ -18,7 +18,7 @@
     
     <div class="blog_pin_post_container">
     <div class="blog_pin_post" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-        <img src="img/gallery1.png" alt="">
+        <img src="img/gallery1.jpg" alt="">
         <div class="blog_pin_post_content">
             <div class="pin_post_date">
                 <p>December 20,2020</p>
@@ -51,7 +51,7 @@
 
         <div class="article_main" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p class="article_number">1.</p>
-            <img src="img/gallery1.png" alt="">
+            <img src="img/gallery1.jpg" alt="">
             
             <div class="article_content" >
                 <h1>How We cook everyday</h1>
@@ -70,7 +70,7 @@
 
         <div class="article_main" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p class="article_number">2.</p>
-            <img src="img/gallery1.png" alt="">
+            <img src="img/gallery1.jpg" alt="">
             <div class="article_content">
                 <h1>How We cook everyday</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem quisquam ipsum sint neque expeditaore et eniet, provident deserunt.</p>
@@ -85,7 +85,7 @@
 
         <div class="article_main" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p class="article_number">3.</p>
-            <img src="img/gallery1.png" alt="">
+            <img src="img/gallery1.jpg" alt="">
             <div class="article_content">
                 <h1>How We cook everyday</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem quisquam ipsum sint neque expeditaore et eniet, provident deserunt.</p>
@@ -100,7 +100,7 @@
 
         <div class="article_main" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p class="article_number">4.</p>
-            <img src="img/gallery1.png" alt="">
+            <img src="img/gallery1.jpg" alt="">
             <div class="article_content">
                 <h1>How We cook everyday</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem quisquam ipsum sint neque expeditaore et eniet, provident deserunt.</p>

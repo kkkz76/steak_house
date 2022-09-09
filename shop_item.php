@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_folder/shop_item.css?version=2">
-    <title>Document</title>
+    <title>Shop Detail</title>
 </head>
 <body>
     <?php include("navbar.php") ?>
@@ -59,15 +59,15 @@
             <button onclick="more_review()">Review<i class='bx bx-chevron-up'></i></button>
             <ul class="review display_toggle">
                 <li>
-                    <img src="img/cool-cat.png" alt="">
+                    <img src="img/cool-cat.jpg" alt="">
                     <p>Decipherment muse about the carbon in our apple pies from which we spring billions upon billions prime number. Concept of the number one cosmic fugue.</p>
                 </li>
                 <li>
-                    <img src="img/cool-cat.png" alt="">
+                    <img src="img/cool-cat.jpg" alt="">
                     <p>Decipherment muse about the carbon in our apple pies from which we spring billions upon billions prime number.</p>
                 </li>
                 <li>
-                    <img src="img/cool-cat.png" alt="">
+                    <img src="img/cool-cat.jpg" alt="">
                     <p>Decipherment muse about the carbon in our apple pies from which we spring billions upon billions prime number. Concept of the number one cosmic fugue star stuff harvesting star light concept of the number one vastness is bearable only through love cosmic fugue.</p>
                 </li>
             </ul>

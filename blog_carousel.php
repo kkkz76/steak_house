@@ -4,7 +4,7 @@
 
     <div class="item">
         <div class="inner_item_div">
-            <img src="img/gallery1.png" alt="">
+            <img src="img/gallery1.jpg" alt="">
             
             <div class="item_content">
                 <h2>Lorem ipsum</h2>

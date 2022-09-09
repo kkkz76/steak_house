@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_folder/blog_detail.css?version=2">
     
-    <title>Document</title>
+    <title>Blog Detail</title>
 </head>
 <body>
     <?php include("navbar.php") ?>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_folder/contact_us.css">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <?php include("navbar.php") ?>
@@ -21,7 +21,7 @@
                 <p>somethingsomething@gmail.com</p>
                 <p>+35 702-631-1858</p>
             </div>
-            <img src="img/local1.png" alt="newyork">
+            <img src="img/local1.jpg" alt="newyork">
             
         </div>
         <div class="col2">
@@ -33,7 +33,7 @@
                         <p>somethingsomething@gmail.com</p>
                         <p>+35 702-631-1858</p>
                     </div>                        
-                    <img src="img/local2.png" alt="london">
+                    <img src="img/local2.jpg" alt="london">
                 </div>
                 <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="img_container card3">
                     <div class="local_detail">
@@ -51,14 +51,9 @@
                         <p>somethingsomething@gmail.com</p>
                         <p>+35 702-631-1858</p>
                     </div> 
-                    <img src="img/local3.png" alt="venice">
+                    <img src="img/local3.jpg" alt="venice">
                 </div>
             </div>
-            <!-- <div class="row2">
-                <div class="img_container">
-                <img src="img/local3.png" alt="">
-                </div>
-            </div> -->
         </div>
     </div>
     <div class="quote">

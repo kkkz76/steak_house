@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_folder/about.css?version=2">
-    <title>Document</title>
+    <title>About Us</title>
 </head>
 <body>
     <?php include("navbar.php") ?>
@@ -24,7 +24,7 @@
 <!-- ...........................................chef intro.................................................     -->
 
     <div class="intro_chef">
-        <img data-aos="fade" data-aos-duration="2000" data-aos-once="true" src="img/intro_chef.png" alt="">
+        <img data-aos="fade" data-aos-duration="2000" data-aos-once="true" src="img/intro_chef.jpg" alt="">
     </div>
 
 <!-- ....................................................quote..................................................... -->
@@ -48,7 +48,7 @@
     <div class="main_chefs">
         <div class="first_chef">
             <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" class="chef_img">
-                <img src="img/master_chef.png" alt="">
+                <img src="img/master_chef.jpg" alt="">
                 <h2>John Doe</h2>
             </div>
             <div data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" class="chef_detail">
@@ -66,7 +66,7 @@
             </div>
             
             <div data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" class="chef_img">
-                <img src="img/master_chef1.png" alt="">
+                <img src="img/master_chef1.jpg" alt="">
                 <h2>David</h2>
             </div>
         </div>        
@@ -79,42 +79,42 @@
         <div class="team_gallery">
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" class="team_member">
                 <div class="img_holder">
-                    <img src="img/anna.png" alt="">
+                    <img src="img/anna.jpg" alt="">
                 </div>
                 <h1>Anna</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="200" class="team_member">
                 <div class="img_holder">
-                    <img src="img/Akimoto.png" alt="">
+                    <img src="img/Akimoto.jpg" alt="">
                 </div>
                 <h1>Akimoto</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="400" class="team_member">
                 <div class="img_holder">
-                    <img src="img/jimmy.png" alt="">
+                    <img src="img/jimmy.jpg" alt="">
                 </div>
                 <h1>Jimmy</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="600" class="team_member">
                 <div class="img_holder">
-                    <img src="img/dave.png" alt="">
+                    <img src="img/dave.jpg" alt="">
                 </div>
                 <h1>Dave</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="800" class="team_member">
                 <div class="img_holder">
-                    <img src="img/larry.png" alt="">
+                    <img src="img/larry.jpg" alt="">
                 </div>
                 <h1>Larry</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="1000" class="team_member">
                 <div class="img_holder">
-                    <img src="img/dog.png" alt="">
+                    <img src="img/dog.jpg" alt="">
                 </div>
                 <h1>Sir Archibald</h1>
                 <h2>professional taster</h2>

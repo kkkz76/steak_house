@@ -30,7 +30,7 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    background-image: url('../img/about_us_landing.png');
+    background-image: url('../img/about_us_landing.jpg');
 }
 
 .about_landing .about_content {
@@ -102,7 +102,7 @@
     background-repeat: no-repeat;
     background-position: 50% 80%;
     background-size: cover;
-    background-image: url('../img/chef_cooking.png');
+    background-image: url('../img/chef_cooking.jpg');
 
 }
 

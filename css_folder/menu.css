@@ -52,27 +52,27 @@ h1,h2,h3,p{
 
 
 .chicken::before{
-    background-image: url('../img/chicken.png');
+    background-image: url('../img/chicken.jpg');
 
 }
 .beef::before{
-    background-image: url('../img/beef.png');
+    background-image: url('../img/beef.jpg');
 
 }
 
 .sausage::before{
-    background-image: url('../img/sausage_wall.jpeg');
+    background-image: url('../img/sausage_wall.jpg');
 }
 
 .barbecue::before{
-    background-image: url('../img/barbecue_wall.png');
+    background-image: url('../img/barbecue_wall.jpg');
 }
 
 .seafood::before{
-    background-image: url('../img/seafood_wall.png');
+    background-image: url('../img/seafood_wall.jpg');
 }
 .drink::before{
-    background-image: url('../img/drink.png');
+    background-image: url('../img/drink.jpg');
 }
 
 .chicken h1{

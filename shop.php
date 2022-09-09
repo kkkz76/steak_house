@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_folder/shop.css">
-    <title>Document</title>
+    <title>Shop</title>
 </head>
 <body>
     <?php include("navbar.php") ?>
@@ -50,7 +50,7 @@
     <div class="shop">
         <div  class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item1.png" alt="">
+            <img src="img/shop_item1.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -58,7 +58,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item2.png" alt="">
+            <img src="img/shop_item2.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -66,7 +66,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item3.png" alt="">
+            <img src="img/shop_item3.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -74,7 +74,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item4.png" alt="">
+            <img src="img/shop_item4.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -82,7 +82,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item5.png" alt="">
+            <img src="img/shop_item5.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -90,7 +90,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item6.png" alt="">
+            <img src="img/shop_item6.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -98,7 +98,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item6.png" alt="">
+            <img src="img/shop_item6.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -106,7 +106,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item5.png" alt="">
+            <img src="img/shop_item5.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -114,7 +114,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item4.png" alt="">
+            <img src="img/shop_item4.jpg" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
