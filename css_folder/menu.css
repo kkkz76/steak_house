@@ -149,8 +149,8 @@ h1,h2,h3,p{
 }
 
 .menu > h1{
-    font-family: 'Tangerine', cursive;
-    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
     font-size: 100px;
     line-height: 100px;
     color: #C13838;
@@ -196,8 +196,8 @@ h1,h2,h3,p{
 .menu li h1{
     font-family: 'Tangerine', cursive;
     font-weight:700;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 100px;
     color: white;
  }
  

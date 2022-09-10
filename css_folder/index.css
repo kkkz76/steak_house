@@ -908,7 +908,7 @@ h1,h2,h3,p{
 
 @media only screen and (max-width: 900px) {
     .landing::before{
-        background: url("../img/mobile_landing_900px.png");
+        background: url("../img/mobile_landing_900px.jpg");
         background-position: center;
    
     }
