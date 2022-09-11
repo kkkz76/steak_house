@@ -61,28 +61,28 @@
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" class="cat cat1">
         <a href="shop.php"><img src="img/cat1.png" alt="Chicken Dish" loading="lazy"/>
-        <h1 >CHICKEN</h1></a>
-        <p>01.</p>
+        <h1 class="heading1">CHICKEN</h1></a>
+        <p  class="number1">01.</p>
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" class="cat cat2">
         <a href="shop.php"><img src="img/beef_steak.png" alt="Steak" />
-        <h1>BEEF</h1></a>
-        <p>02.</p>
+        <h1 class="heading2">BEEF</h1></a>
+        <p class="number2">02.</p>
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" class="cat cat3">
         <a href="shop.php"><img src="img/sausage.png" alt="Sausage Plate" />
-        <h1>SAUSAGE</h1></a>
-        <p>03.</p>
+        <h1 class="heading3">SAUSAGE</h1></a>
+        <p class="number3">03.</p>
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" class="cat cat4">
         <a href="shop.php"><img src="img/barbecue.png" alt="BBQ Plate" />
-        <h1>BARBECUE</h1></a>
-        <p>04.</p>
+        <h1 class="heading4">BARBECUE</h1></a>
+        <p class="number4">04.</p>
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" class="cat cat5">
         <a href="shop.php"><img src="img/seafood.png" alt="Seafood Plate"/>
-        <h1>SEAFOOD</h1></a>
-        <p>05.</p>
+        <h1 class="heading5">SEAFOOD</h1></a>
+        <p class="number5">05.</p>
       </div>
     </div>
 

@@ -164,6 +164,7 @@ h1,h2,h3,p{
 .categories{
     text-align: center;
     margin-bottom: 130px;
+    overflow: hidden;
 
 }
 
@@ -200,7 +201,7 @@ h1,h2,h3,p{
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 300px;
-    font-family: Tw Cen MT;
+    font-family: 'Tw Cen MT', sans-serif;
     font-weight:200;
     color:transparent;    
 }
@@ -234,23 +235,24 @@ h1,h2,h3,p{
     transform: translate(-50%,-50%) scale(1.1) rotate(10deg);
 }
 
-.cat1 h1,.cat1 p{
+.heading1,.number1{
     -webkit-text-stroke: 2px #FFF1A8;
+  
 }
 
-.cat2 h1,.cat2 p{
+.heading2,.number2{
     -webkit-text-stroke: 2px white;
 }
 
-.cat3 h1,.cat3 p{
+.heading3,.number3{
     -webkit-text-stroke: 2px #82FF8A;
 }
 
-.cat4 h1,.cat4 p{
+.heading4,.number4{
     -webkit-text-stroke: 2px #FF7070;
 }
 
-.cat5 h1,.cat5 p{
+.heading5,.number5{
     -webkit-text-stroke: 2px #FF8944;
 }
 
@@ -1328,7 +1330,11 @@ h1,h2,h3,p{
         }
         .categories .cat img{
             width: 300px; 
-        }  
+        } 
+        .categories .cat h1{
+            font-size: 65px;
+            font-weight:400;
+        } 
         /* ...............................BOTB............................... */
         .chef_recommend{
             margin-top: 100px;
