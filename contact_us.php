@@ -21,7 +21,7 @@
                 <p>somethingsomething@gmail.com</p>
                 <p>+35 702-631-1858</p>
             </div>
-            <img src="img/local1.jpg" alt="newyork">
+            <img src="img/local1.jpg" loading="lazy" alt="newyork">
             
         </div>
         <div class="col2">
@@ -33,7 +33,7 @@
                         <p>somethingsomething@gmail.com</p>
                         <p>+35 702-631-1858</p>
                     </div>                        
-                    <img src="img/local2.jpg" alt="london">
+                    <img src="img/local2.jpg" loading="lazy" alt="london">
                 </div>
                 <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="img_container card3">
                     <div class="local_detail">
@@ -42,7 +42,7 @@
                         <p>somethingsomething@gmail.com</p>
                         <p>+35 702-631-1858</p>
                     </div> 
-                    <img src="img/local4.jpg" alt="paris">
+                    <img src="img/local4.jpg" loading="lazy" alt="paris">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="img_container card4">
                     <div class="local_detail">
@@ -51,7 +51,7 @@
                         <p>somethingsomething@gmail.com</p>
                         <p>+35 702-631-1858</p>
                     </div> 
-                    <img src="img/local3.jpg" alt="venice">
+                    <img src="img/local3.jpg" loading="lazy" alt="venice">
                 </div>
             </div>
         </div>

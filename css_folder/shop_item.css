@@ -31,6 +31,7 @@ input[type=number] {
     width: 100%;
     padding: 0px 5%;
     gap: 20px;
+    overflow: hidden;
     /* background-color: blue; */
 }
 .item_img{
@@ -125,13 +126,12 @@ input[type=number] {
     width: 100%;
     gap: 20px;
     padding: 0px 5%;
-    /* background-color: red; */
+    overflow: hidden;
 }
 
 .item_detail{
     width: 500px;
     margin-bottom: 100px;
-    /* background-color: green; */
 }
 
 
@@ -152,7 +152,6 @@ input[type=number] {
     border: none;
     background-color: transparent;
     color: white;
-    /* background-color: blanchedalmond; */
     font-size:40px;
     line-height: 100px;
     cursor: pointer;
@@ -167,13 +166,6 @@ input[type=number] {
   
 
 }
-/* .bx-chevron-down{
-    display: block;
-}
-
-.bx-chevron-up{
-    display: none;
-} */
 .display_toggle{
     display: none;
 }
@@ -287,12 +279,10 @@ input[type=number] {
 }
 
 .item{
-    /* background-color: green; */
     justify-content: center;
     align-items: center;
 }
 .shop_card{
-    /* background-color: red; */
     margin: 20px;
 }
 .shop_card img{
@@ -333,18 +323,10 @@ input[type=number] {
 
 
 /* ...........................................responsive....................................... */
-@media only screen and (max-width: 1200px) {
-
-
-
-  }
-
-
 @media only screen and (max-width: 1100px) {
 
     .shop_card img{
         height: 400px;
-    
     }
   }
 
@@ -357,9 +339,7 @@ input[type=number] {
   
 @media only screen and (max-width: 600px) {
     .item_img,.item_info,.item_detail,.item_review{
-   
         width: 100%;
-        /* background-color: red; */
     }
     .item_info > h1{
         font-size: 30px;
@@ -464,6 +444,10 @@ input[type=number] {
     }
     .shop_card p,.shop_card h1{
         font-size: 15px;
+    }
+    .item_detail button,.item_review button{
+        font-size:30px;
+
     }
   }
   

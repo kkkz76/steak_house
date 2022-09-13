@@ -11,15 +11,14 @@ header{
     /* background-color: red; */
     z-index: 1000;
     position: fixed;
-    top: 0;
-    
+    top: 0;   
     color: white;
     font-size: 25px;
-    
     width: 100%;
     padding: 60px 10%;
     font-family: 'Tw Cen MT';   
 }
+
 .top_menu{
     display: flex;
     justify-content: space-between;
@@ -34,24 +33,20 @@ nav{
     display: inline-block;
     list-style: none;
     margin: 0 15px;
-    position: relative;
-    
-   
-    
+    position: relative;   
 }
+
 .left_nav li span{
     position: absolute;
     left: 0px;
     bottom: -10px;
-   
     transition: 0.5s ease;
     width: 0%;
     border-bottom: 3px solid #BC3F46;
 }
+
 .top_menu li:hover span{
-  
-    width: 100%;
-    
+    width: 100%;  
 }
 .right_nav li:hover i{
     color:#BC3F46;
@@ -258,4 +253,45 @@ nav{
         height: auto;
     }
 
+}
+
+@media only  screen and (max-width:450px){
+
+    header{
+        padding: 30px 10%;
+        
+        
+    }
+
+    .responsive_menu{
+        height: 100vh;
+    }
+
+    .responsive_menu_element li{
+
+        margin-top: 20px;
+    
+    }
+    
+    .logo p{
+        font-size: 15px;
+    }
+
+    .responsive_menu_element li a{
+        font-size: 15px;
+       
+    }
+    .side_nav_icon{
+        font-size: 15px;
+        
+    }
+    .top_menu .logo_img{
+        width: 45px;
+    }
+
+    .logo{
+        padding: 0px;
+        margin-left: 10px;
+    }
+    
 }

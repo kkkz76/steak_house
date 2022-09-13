@@ -48,7 +48,7 @@
     <div class="main_chefs">
         <div class="first_chef">
             <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" class="chef_img">
-                <img src="img/master_chef.jpg" alt="">
+                <img src="img/master_chef.jpg" loading="lazy" alt="">
                 <h2>John Doe</h2>
             </div>
             <div data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" class="chef_detail">
@@ -66,7 +66,7 @@
             </div>
             
             <div data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" class="chef_img">
-                <img src="img/master_chef1.jpg" alt="">
+                <img src="img/master_chef1.jpg" loading="lazy" alt="">
                 <h2>David</h2>
             </div>
         </div>        
@@ -79,42 +79,42 @@
         <div class="team_gallery">
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" class="team_member">
                 <div class="img_holder">
-                    <img src="img/anna.jpg" alt="">
+                    <img src="img/anna.jpg" loading="lazy" alt="">
                 </div>
                 <h1>Anna</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="200" class="team_member">
                 <div class="img_holder">
-                    <img src="img/Akimoto.jpg" alt="">
+                    <img src="img/Akimoto.jpg" loading="lazy" alt="">
                 </div>
                 <h1>Akimoto</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="400" class="team_member">
                 <div class="img_holder">
-                    <img src="img/jimmy.jpg" alt="">
+                    <img src="img/jimmy.jpg" loading="lazy" alt="">
                 </div>
                 <h1>Jimmy</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="600" class="team_member">
                 <div class="img_holder">
-                    <img src="img/dave.jpg" alt="">
+                    <img src="img/dave.jpg" loading="lazy" alt="">
                 </div>
                 <h1>Dave</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="800" class="team_member">
                 <div class="img_holder">
-                    <img src="img/larry.jpg" alt="">
+                    <img src="img/larry.jpg" loading="lazy" alt="">
                 </div>
                 <h1>Larry</h1>
                 <h2>chef</h2>
             </div>
             <div data-aos="fade" data-aos-duration="2000" data-aos-once="true" data-aos-delay="1000" class="team_member">
                 <div class="img_holder">
-                    <img src="img/dog.jpg" alt="">
+                    <img src="img/dog.jpg" loading="lazy" alt="">
                 </div>
                 <h1>Sir Archibald</h1>
                 <h2>professional taster</h2>

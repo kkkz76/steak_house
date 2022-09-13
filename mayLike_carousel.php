@@ -4,7 +4,7 @@
 
     <div class="item">
         <div class="shop_card">
-            <img src="img/shop_item1.jpg" alt="">
+            <img src="img/shop_item1.jpg" loading="lazy" alt="">
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
             <p>catagories/chef</p>
@@ -13,7 +13,7 @@
 
     <div class="item">
         <div class="shop_card">
-            <img src="img/shop_item2.jpg" alt="">
+            <img src="img/shop_item2.jpg" loading="lazy" alt="">
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
             <p>catagories/chef</p>
@@ -22,7 +22,7 @@
 
     <div class="item">
         <div class="shop_card">
-            <img src="img/shop_item3.jpg" alt="">
+            <img src="img/shop_item3.jpg" loading="lazy" alt="">
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
             <p>catagories/chef</p>
@@ -31,7 +31,7 @@
 
     <div class="item">
         <div class="shop_card">
-            <img src="img/shop_item4.jpg" alt="">
+            <img src="img/shop_item4.jpg" loading="lazy" alt="">
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
             <p>catagories/chef</p>

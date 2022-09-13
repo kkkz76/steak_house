@@ -50,7 +50,7 @@
     <div class="shop">
         <div  class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item1.jpg" alt="">
+            <img src="img/shop_item1.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -58,7 +58,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item2.jpg" alt="">
+            <img src="img/shop_item2.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -66,7 +66,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item3.jpg" alt="">
+            <img src="img/shop_item3.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -74,7 +74,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item4.jpg" alt="">
+            <img src="img/shop_item4.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -82,7 +82,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item5.jpg" alt="">
+            <img src="img/shop_item5.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -90,7 +90,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item6.jpg" alt="">
+            <img src="img/shop_item6.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -98,7 +98,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item6.jpg" alt="">
+            <img src="img/shop_item6.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -106,7 +106,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item5.jpg" alt="">
+            <img src="img/shop_item5.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>
@@ -114,7 +114,7 @@
         </div>
         <div class="shop_card">
             <a href="shop_item.php">
-            <img src="img/shop_item4.jpg" alt="">
+            <img src="img/shop_item4.jpg" loading="lazy" alt="">
             </a>
             <h1>Fried Egg<span>10$</span></h1>
             <hr>

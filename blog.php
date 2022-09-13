@@ -17,19 +17,18 @@
     </div>
     
     <div class="blog_pin_post_container">
-    <div class="blog_pin_post" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-        <img src="img/gallery1.jpg" alt="">
-        <div class="blog_pin_post_content">
-            <div class="pin_post_date">
-                <p>December 20,2020</p>
-                <p>by Chef John Doe</p>
+        <div class="blog_pin_post" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+            <img src="img/gallery1.jpg" alt="">
+            <div class="blog_pin_post_content">
+                <div class="pin_post_date">
+                    <p>December 20,2020</p>
+                    <p>by Chef John Doe</p>
+                </div>
+                <h1>How We cook everyday</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem quisquam ipsum sint neque expedita dolores repellat animi suscipit itaque aliquam eveniet, provident deserunt.Placeat doloribus itaque dolore et rerum!dolores repellat animi suscipit itaque aliquam eveniet, provident deserunt.</p>
+                <button onclick="window.location.href = 'blog_detail.php';">Read More</button>
             </div>
-            <h1>How We cook everyday</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem quisquam ipsum sint neque expedita dolores repellat animi suscipit itaque aliquam eveniet, provident deserunt.Placeat doloribus itaque dolore et rerum!dolores repellat animi suscipit itaque aliquam eveniet, provident deserunt.</p>
-            <button onclick="window.location.href = 'blog_detail.php';">Read More</button>
         </div>
-
-    </div>
     </div>
 
     <div class="article_container">
@@ -70,7 +69,7 @@
 
         <div class="article_main" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p class="article_number">2.</p>
-            <img src="img/gallery1.jpg" alt="">
+            <img src="img/gallery1.jpg" loading="lazy" alt="">
             <div class="article_content">
                 <h1>How We cook everyday</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem quisquam ipsum sint neque expeditaore et eniet, provident deserunt.</p>
@@ -85,7 +84,7 @@
 
         <div class="article_main" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p class="article_number">3.</p>
-            <img src="img/gallery1.jpg" alt="">
+            <img src="img/gallery1.jpg" loading="lazy" alt="">
             <div class="article_content">
                 <h1>How We cook everyday</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem quisquam ipsum sint neque expeditaore et eniet, provident deserunt.</p>
@@ -100,7 +99,7 @@
 
         <div class="article_main" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p class="article_number">4.</p>
-            <img src="img/gallery1.jpg" alt="">
+            <img src="img/gallery1.jpg" loading="lazy" alt="">
             <div class="article_content">
                 <h1>How We cook everyday</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem quisquam ipsum sint neque expeditaore et eniet, provident deserunt.</p>

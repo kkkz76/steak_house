@@ -13,7 +13,7 @@
     <div class="detail_row1">
         
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="item_img">
-            <img src="img/chef_recommend.png" alt="">
+            <img src="img/chef_recommend.png" loading="lazy" alt="">
         </div>
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="item_info">
             <h1>Medium Rare Steak</h1>
@@ -59,15 +59,15 @@
             <button onclick="more_review()">Review<i class='bx bx-chevron-up'></i></button>
             <ul class="review display_toggle">
                 <li>
-                    <img src="img/profile1.jpg" alt="">
+                    <img src="img/profile1.jpg" loading="lazy" alt="">
                     <p>Decipherment muse about the carbon in our apple pies from which we spring billions upon billions prime number. Concept of the number one cosmic fugue.</p>
                 </li>
                 <li>
-                    <img src="img/profile2.jpg" alt="">
+                    <img src="img/profile2.jpg" loading="lazy" alt="">
                     <p>Decipherment muse about the carbon in our apple pies from which we spring billions upon billions prime number.</p>
                 </li>
                 <li>
-                    <img src="img/profile3.jpg" alt="">
+                    <img src="img/profile3.jpg" loading="lazy" alt="">
                     <p>Decipherment muse about the carbon in our apple pies from which we spring billions upon billions prime number. Concept of the number one cosmic fugue star stuff harvesting star light concept of the number one vastness is bearable only through love cosmic fugue.</p>
                 </li>
             </ul>

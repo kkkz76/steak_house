@@ -39,7 +39,7 @@ h1,h2,h3,p{
     font-family: 'Tw Cen MT';
     -webkit-text-stroke: 2px #BC3F46;
     color: transparent;
-    font-weight:bold;
+    font-weight:400;
 }
 
 .reserve_left p{
@@ -309,7 +309,7 @@ h1,h2,h3,p{
         height: auto;
     }
     .reserve_left h1{
-        font-size: 50px;
+        font-size: 40px;
     }  
     .reserve_container{
         flex-wrap: wrap;

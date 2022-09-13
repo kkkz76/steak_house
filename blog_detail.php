@@ -24,10 +24,10 @@
             <p>by Chef John Doe</p>
             <p>December 20,2020</p>
         </div>
-        <img src="img/gallery2.jpg" alt="">
+        <img src="img/gallery2.jpg" loading="lazy" alt="">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sit sequi. Non perspiciatis aliquam, hic corrupti voluptatum consequuntur quasi quas molestias explicabo reprehenderit ipsa, ab maxime expedita impedit nam corporis? Eaque aliquam vitae, tenetur dignissimos nihil doloribus? Veritatis autem praesentium consectetur dicta porro possimus ut placeat quidem recusandae reiciendis! Similique illo dignissimos, dolorum nesciunt, vel minima quod necessitatibus vero unde voluptates maiores voluptate, suscipit et sit possimus odio cupiditate totam enim quam quaerat fugit facilis ipsa! Impedit facilis perspiciatis enim laboriosam deserunt quia qui expedita et, eveniet dignissimos magni fugiat, eaque aperiam molestiae, sapiente ea quo facere dolores ipsum? Amet.</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, iure totam? Magni fuga eum impedit labore dolor optio, nisi ex, cum debitis corrupti saepe eaque molestiae numquam voluptates cumque voluptatibus, quidem ab iure amet. Repellat eligendi saepe sunt corrupti. Libero, adipisci quia. Commodi perferendis laboriosam asperiores, harum rem laborum accusamus?</p>
-        <img src="img/gallery3.jpg" alt="">
+        <img src="img/gallery3.jpg" loading="lazy" alt="">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias tempora, accusantium in ex fugit pariatur impedit, cumque ab aliquam fugiat dolorum illo provident numquam dolor velit eaque. Magni, at culpa!</p>
     </div>
     </div>

@@ -43,9 +43,9 @@
         </p>
         <button data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" onclick="window.location.href = 'about.php';">View More</button>
       </div>
-      <img data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" id="img1" src="img/steak1.png" alt="" />
-      <img data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" id="img2" src="img/steak2.png" alt="" />
-      <img data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" id="img3" src="img/steak3.png" alt="" />
+      <img data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" id="img1" src="img/steak1.png" alt="" loading="lazy" />
+      <img data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" id="img2" src="img/steak2.png" alt="" loading="lazy" />
+      <img data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" id="img3" src="img/steak3.png" alt="" loading="lazy" />
       
     </div>
 
@@ -94,7 +94,7 @@
 
       <div class="chef_recommend">
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="chef_recommend_img">
-          <img src="img/chef_recommend.png" alt="" />
+          <img src="img/chef_recommend.png" loading="lazy" alt="" />
         </div>
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="chef_recommend_content">
           <h2>Lorem Inpusm</h2>
@@ -118,7 +118,7 @@
           <button>Read More</button>
         </div>
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="chef_recommend_img">
-          <img src="img/most_popular.png" alt="" width="839" height="629" />
+          <img src="img/most_popular.png" alt="" width="839" loading="lazy" height="629" />
         </div>
       </div>
     </div>
@@ -145,7 +145,7 @@
     <div class="gallery_main">
       <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="gallery_row1">
         <div class="gallery_headerImg_container">
-          <img src="img/gallery1.jpg" alt="" />
+          <img src="img/gallery1.jpg" loading="lazy" alt="" />
         </div>
        
         <h1>Gallery</h1>
@@ -155,28 +155,28 @@
       <div class="gallery_row2">
         <div class="gallery_col1">
           <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col1_img1_container">
-            <img id="col1_img1" src="img/gallery2.jpg" alt="" />
+            <img id="col1_img1" src="img/gallery2.jpg" alt="" loading="lazy" />
           </div>
           <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col1_img2_container">
-            <img id="col1_img2" src="img/gallery8.jpg" alt="" />
+            <img id="col1_img2" src="img/gallery8.jpg" alt="" loading="lazy" />
           </div>
         </div>
 
 
         <div class="gallery_col2">
           <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col2_img1_container">
-            <img id="col2_img1" src="img/gallery42.jpg" alt="" />
+            <img id="col2_img1" src="img/gallery42.jpg" alt="" loading="lazy" />
           </div>
           <div id="col2_div1">
             <div data-aos="fade" data-aos-duration="1000" data-aos-once="true" class="col2_img2_container">
-              <img id="col2_img2" src="img/gallery5.jpg" alt="" />
+              <img id="col2_img2" src="img/gallery5.jpg" alt=""  loading="lazy" />
             </div>
             <div id="col2_div2">
               <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col2_img3_container">
-                <img id="col2_img3" src="img/gallery6.jpg" alt="" />
+                <img id="col2_img3" src="img/gallery6.jpg" alt=""  loading="lazy" />
               </div>
               <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col2_img4_container">
-                <img id="col2_img4" src="img/gallery7.jpg" alt="" />
+                <img id="col2_img4" src="img/gallery7.jpg" alt=""  loading="lazy" />
               </div>
               
             </div>

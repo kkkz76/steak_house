@@ -17,7 +17,7 @@
         <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>CHICKEN</h1></div>
     </div>
     <div class="menu_container column chicken_menu">
-        <img  src="img/cat1.png" alt="">
+        <img  src="img/cat1.png" loading="lazy" alt="">
         <div class="column1">
             <div class="menu">
                 <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Menu<span class="underline"></span></h1>
@@ -113,7 +113,7 @@
         <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>BEEF</h1></div>
     </div>
     <div class="menu_container column beef_menu">
-        <img src="img/beef_steak.png" alt="">
+        <img src="img/beef_steak.png" loading="lazy" alt="">
         <div class="column1">
             <div class="menu">
                 <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Menu<span class="underline"></span></h1>
@@ -209,7 +209,7 @@
         <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>SAUSAGE</h1></div>
     </div>
     <div class="menu_container column sausage_menu">
-        <img src="img/sausage.png" alt="">
+        <img src="img/sausage.png" loading="lazy" alt="">
         <div class="column1">
             <div class="menu">
                 <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Menu<span class="underline"></span></h1>
@@ -305,7 +305,7 @@
         <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>BARBECUE</h1><h1>BARBECUE</h1></div>
     </div>
     <div class="menu_container column barbecue_menu">
-        <img src="img/barbecue.png" alt="">
+        <img src="img/barbecue.png" loading="lazy" alt="">
         <div class="column1">
             <div class="menu">
                 <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Menu<span class="underline"></span></h1>
@@ -401,7 +401,7 @@
         <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>SEAFOOD</h1></div>
     </div>
     <div class="menu_container column seafood_menu">
-        <img src="img/seafood.png" alt="">
+        <img src="img/seafood.png" loading="lazy" alt="">
         <div class="column1">
             <div class="menu">
                 <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Menu<span class="underline"></span></h1>
@@ -496,7 +496,7 @@
         <div data-aos="fade" data-aos-duration="2000" data-aos-once="true"><h1>DRINK</h1></div>
     </div>
     <div class="menu_container column drink_menu">
-        <img src="img/drink1.png" alt="">
+        <img src="img/drink1.png" loading="lazy" alt="">
         <div class="column1">
             <div class="menu">
                 <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Menu<span class="underline"></span></h1>

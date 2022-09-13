@@ -202,7 +202,7 @@ h1,h2,h3,p{
     transform: translate(-50%,-50%);
     font-size: 300px;
     font-family: 'Tw Cen MT', sans-serif;
-    font-weight:200;
+    font-weight:400;
     color:transparent;    
 }
 
@@ -225,7 +225,7 @@ h1,h2,h3,p{
     transform: translateY(-50%);
     font-size: 50px;
     font-family: Tw Cen MT;
-    font-weight:200;
+    font-weight:400;
     padding-left: 105px;
     color:transparent; 
 }
@@ -552,7 +552,7 @@ h1,h2,h3,p{
 }
 .inner_item_div{
     width: 450px;
-    height: 672px;
+    min-height: 672px;
     background-color:#100E0E;
 }
 
@@ -636,6 +636,7 @@ h1,h2,h3,p{
 .item_content_info{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 80px;
     padding-bottom: 30px;
     border-bottom: 1px solid white;
@@ -1333,7 +1334,6 @@ h1,h2,h3,p{
         } 
         .categories .cat h1{
             font-size: 65px;
-            font-weight:400;
         } 
         /* ...............................BOTB............................... */
         .chef_recommend{
@@ -1368,6 +1368,7 @@ h1,h2,h3,p{
        
             font-size: 50px;
         }
+
         
 }
 
@@ -1375,4 +1376,7 @@ h1,h2,h3,p{
     .about_us{
         height: 800px;
     }
+    
+
+
 }

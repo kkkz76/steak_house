@@ -4,7 +4,7 @@
 
     <div class="item">
         <div class="inner_item_div">
-            <img src="img/gallery1.jpg" alt="">
+            <img src="img/gallery1.jpg" loading="lazy" alt="">
             
             <div class="item_content">
                 <h2>Lorem ipsum</h2>
@@ -22,7 +22,7 @@
     
     <div class="item">
         <div class="inner_item_div">
-            <img src="img/gallery2.jpg" alt="">
+            <img src="img/gallery2.jpg" loading="lazy" alt="">
             
             <div class="item_content">
                 <h2>Lorem ipsum</h2>
@@ -40,7 +40,7 @@
     
     <div class="item">
         <div class="inner_item_div">
-            <img src="img/gallery3.jpg" alt="">
+            <img src="img/gallery3.jpg" loading="lazy" alt="">
             
             <div class="item_content">
                 <h2>Lorem ipsum</h2>
@@ -58,7 +58,7 @@
   
     <div class="item">
         <div class="inner_item_div">
-            <img src="img/gallery6.jpg" alt="">
+            <img src="img/gallery6.jpg" loading="lazy" alt="">
             
             <div class="item_content">
                 <h2>Lorem ipsum</h2>
@@ -76,7 +76,7 @@
 
     <div class="item">
         <div class="inner_item_div">
-            <img src="img/gallery7.jpg" alt="">
+            <img src="img/gallery7.jpg" loading="lazy" alt="">
             
             <div class="item_content">
                 <h2>Lorem ipsum</h2>
@@ -93,7 +93,7 @@
 
     <div class="item">
         <div class="inner_item_div">
-            <img src="img/gallery42.jpg" alt="">
+            <img src="img/gallery42.jpg" loading="lazy" alt="">
             
             <div class="item_content">
                 <h2>Lorem ipsum</h2>

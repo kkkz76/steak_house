@@ -1,5 +1,5 @@
 <div class="footer_main">
-    <img class="footer_img" src="img/footer.jpg" alt="">
+    <img class="footer_img" src="img/footer.jpg" loading="lazy" alt="">
 
     
         <div class="logo_footer">

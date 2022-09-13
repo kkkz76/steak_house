@@ -43,6 +43,8 @@ body{
     justify-content: center;
     width: 100%;
     padding:0 10%;
+    overflow: hidden;
+
    
 }
 .blog_pin_post{
@@ -114,6 +116,7 @@ body{
     display: flex;
     justify-content: center;
     padding:0 10%;
+    overflow: hidden;
 }
 
 .blog_article{

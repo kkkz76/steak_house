@@ -13,7 +13,7 @@
     <div class="reserve_container">
         <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" class="reserve_left">
             <div class="reserve_img">
-                <img src="img/reserve.png" alt="">
+                <img src="img/reserve.png" loading="lazy" alt="">
             </div>
             <div class="row1">
                 <h2>Welcome to Our</h2>
